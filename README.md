@@ -13,19 +13,19 @@ The input follows these formats:
 #### Write "OUT" to view the output of a specific node or "OUT ALL" to view all nodes' values
 
 ### Sample Input 
-AND A B D
-OR C D E
-SET A 1
-SET B 0 
-SET C 1
-SIM 
-OUT E
-OUT ALL
+#### AND A B D
+#### OR C D E
+#### SET A 1
+#### SET B 0 
+#### SET C 1
+#### SIM 
+#### OUT E
+#### OUT ALL
 
 ### Sample Output 0
-E: 1
-A: 1
-B: 0
-D: 0
-C: 1
-E: 1
+#### E: 1
+#### A: 1
+#### B: 0
+#### D: 0
+#### C: 1
+#### E: 1
