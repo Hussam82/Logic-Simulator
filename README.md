@@ -1,7 +1,7 @@
 # Logic-Simulator
 ## A simple logic simulator that provides a mechanism to run and simulate logic circuits then find the desired outputs for different designs.
 
-## Input Format
+### Input Format
 
 The input follows these formats:
 
