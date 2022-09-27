@@ -5,9 +5,9 @@
 
 The input follows these formats:
 
-gate type (such as AND/OR gate)
-The inputs and output symbols
-Write "SET" values to the inputs (either 0 or 1)
-Write "SIM" to start simulation
-Write "OUT" to view the output of a specific node or "OUT ALL" to view all nodes' values
+# gate type (such as AND/OR gate)
+# The inputs and output symbols
+# Write "SET" values to the inputs (either 0 or 1)
+# Write "SIM" to start simulation
+# Write "OUT" to view the output of a specific node or "OUT ALL" to view all nodes' values
 
