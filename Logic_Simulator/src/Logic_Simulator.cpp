@@ -76,19 +76,25 @@ protected:
 	Node* inputNode2;
 	Node* outputNode;
 public:
+	/* Default CTOR */
 	Gate():
 		inputNode1(nullptr), inputNode2(nullptr), outputNode(nullptr)
 	{
 
 	}
+	/* Non-Default (Parameterized) CTOR */
 	Gate(Node* inputNode1, Node* inputNode2, Node* outputNode):
 		inputNode1(inputNode1), inputNode2(inputNode2), outputNode(outputNode)
 	{
 
 	}
+	/* Pure Virtual Function */
 	virtual int simulateGate() = 0;
+
+	/* Virtual Destructor */
 	virtual ~Gate() {}
 
+	/* Setters and Getters */
 	const Node* getInputNode1() const {
 		return inputNode1;
 	}
@@ -234,7 +240,7 @@ private:
 	{
 
 	}
-	/* Delete the copy ctor */
+	/* Delete the copy CTOR */
 	Simulator(const Simulator& other) = delete;
 public:
 	static Simulator& createObject()
@@ -298,6 +304,7 @@ public:
 /*<--------------------------- GateGenerator Class ------------------------------------->*/
 class GateGenerator{
 private:
+	/* Private Data Members */
 	Gate* andGate;
 	Gate* orGate;
 	Gate* nandGate;
@@ -319,7 +326,69 @@ private:
 	int newNodeValue;
 	string newNodeName;
 	string outString;
-
+	/* Private Functions */
+	Node* createNode(string nodeName, int nodeValue)
+	{
+		Simulator& sim = Simulator::createObject();
+		node = new Node(nodeName, nodeValue);
+		sim.postNode(node);
+		return node;
+	}
+	Gate* createGate(string gateName, Node* n1, Node* n2, Node* n3)
+		{
+			Simulator& sim = Simulator::createObject();
+			/* These nodes will be sent from parseInput() function */
+			if(gateName == "AND")
+			{
+				/* Poly-morphic object */
+				andGate = new AndGate(n1, n2, n3);
+				sim.postGate(andGate);
+				return andGate;
+			}
+			else if(gateName == "OR")
+			{
+				/* Poly-morphic object */
+				orGate = new OrGate(n1, n2, n3);
+				sim.postGate(orGate);
+				return orGate;
+			}
+			else if(gateName == "NAND")
+			{
+				/* Poly-morphic object */
+				nandGate = new NandGate(n1, n2, n3);
+				sim.postGate(nandGate);
+				return nandGate;
+			}
+			else if(gateName == "NOR")
+			{
+				/* Poly-morphic object */
+				norGate = new NorGate(n1, n2, n3);
+				sim.postGate(norGate);
+				return norGate;
+			}
+			else if(gateName == "XOR")
+			{
+				/* Poly-morphic object */
+				xorGate = new XorGate(n1, n2, n3);
+				sim.postGate(xorGate);
+				return xorGate;
+			}
+			else if(gateName == "XNOR")
+			{
+				/* Poly-morphic object */
+				xnorGate = new XnorGate(n1, n2, n3);
+				sim.postGate(xnorGate);
+				return xnorGate;
+			}
+			else if(gateName == "NOT")
+			{
+				/* Poly-morphic object */
+				notGate = new NotGate(n1, n2, n3);
+				sim.postGate(notGate);
+				return notGate;
+			}
+			return 0;
+		}
 
 
 public:
@@ -397,70 +466,7 @@ public:
 			}
 		}
 	}
-	Node* createNode(string nodeName, int nodeValue)
-	{
-		Simulator& sim = Simulator::createObject();
-		node = new Node(nodeName, nodeValue);
-		sim.postNode(node);
-		return node;
-	}
-	/* Don't forget to delete the heap allocations */
-	Gate* createGate(string gateName, Node* n1, Node* n2, Node* n3)
-	{
-		Simulator& sim = Simulator::createObject();
-		/* These nodes will be sent from parseInput() function */
-		if(gateName == "AND")
-		{
-			/* Poly-morphic object */
-			andGate = new AndGate(n1, n2, n3);
-			sim.postGate(andGate);
-			return andGate;
-		}
-		else if(gateName == "OR")
-		{
-			/* Poly-morphic object */
-			orGate = new OrGate(n1, n2, n3);
-			sim.postGate(orGate);
-			return orGate;
-		}
-		else if(gateName == "NAND")
-		{
-			/* Poly-morphic object */
-			nandGate = new NandGate(n1, n2, n3);
-			sim.postGate(nandGate);
-			return nandGate;
-		}
-		else if(gateName == "NOR")
-		{
-			/* Poly-morphic object */
-			norGate = new NorGate(n1, n2, n3);
-			sim.postGate(norGate);
-			return norGate;
-		}
-		else if(gateName == "XOR")
-		{
-			/* Poly-morphic object */
-			xorGate = new XorGate(n1, n2, n3);
-			sim.postGate(xorGate);
-			return xorGate;
-		}
-		else if(gateName == "XNOR")
-		{
-			/* Poly-morphic object */
-			xnorGate = new XnorGate(n1, n2, n3);
-			sim.postGate(xnorGate);
-			return xnorGate;
-		}
-		else if(gateName == "NOT")
-		{
-			/* Poly-morphic object */
-			notGate = new NotGate(n1, n2, n3);
-			sim.postGate(notGate);
-			return notGate;
-		}
-		return 0;
-	}
-
+	/* Destructor to delete all the heap allocations */
 	~GateGenerator()
 	{
 		Simulator& sim = Simulator::createObject();
