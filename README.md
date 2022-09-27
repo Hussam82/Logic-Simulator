@@ -22,7 +22,7 @@
 ###### OUT E
 ###### OUT ALL
 
-### Sample Output
+#### Sample Output
 ###### E: 1
 ###### A: 1
 ###### B: 0
