@@ -1,0 +1,7 @@
+17:16:21 **** Incremental Build of configuration Debug for project Logic_Simulator ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logic_Simulator.o" "..\\src\\Logic_Simulator.cpp" 
+g++ -o Logic_Simulator.exe "src\\Logic_Simulator.o" 
+
+17:16:22 Build Finished. 0 errors, 0 warnings. (took 876ms)
+

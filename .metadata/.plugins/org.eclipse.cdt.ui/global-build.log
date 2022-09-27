@@ -1,0 +1,2255 @@
+01:59:11 **** Incremental Build of configuration Debug for project Logic_Simulator ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logic_Simulator.o" "..\\src\\Logic_Simulator.cpp" 
+g++ -o Logic_Simulator.exe "src\\Logic_Simulator.o" 
+Info: Nothing to build for Logic_Simulator
+Info: Nothing to build for Logic_Simulator
+01:59:17 **** Incremental Build of configuration Debug for project Logic_Simulator ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logic_Simulator.o" "..\\src\\Logic_Simulator.cpp" 
+g++ -o Logic_Simulator.exe "src\\Logic_Simulator.o" 
+02:05:46 **** Incremental Build of configuration Debug for project Logic_Simulator ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logic_Simulator.o" "..\\src\\Logic_Simulator.cpp" 
+g++ -o Logic_Simulator.exe "src\\Logic_Simulator.o" 
+Info: Nothing to build for Logic_Simulator
+02:05:55 **** Incremental Build of configuration Debug for project Logic_Simulator ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logic_Simulator.o" "..\\src\\Logic_Simulator.cpp" 
+g++ -o Logic_Simulator.exe "src\\Logic_Simulator.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Logic_Simulator.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+02:06:19 **** Incremental Build of configuration Debug for project Logic_Simulator ****
+Info: Internal Builder is used for build
+g++ -o Logic_Simulator.exe "src\\Logic_Simulator.o" 
+02:09:31 **** Incremental Build of configuration Debug for project Logic_Simulator ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logic_Simulator.o" "..\\src\\Logic_Simulator.cpp" 
+g++ -o Logic_Simulator.exe "src\\Logic_Simulator.o" 
+02:15:57 **** Incremental Build of configuration Debug for project Logic_Simulator ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logic_Simulator.o" "..\\src\\Logic_Simulator.cpp" 
+g++ -o Logic_Simulator.exe "src\\Logic_Simulator.o" 
+Info: Nothing to build for Logic_Simulator
+02:27:59 **** Incremental Build of configuration Debug for project Logic_Simulator ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logic_Simulator.o" "..\\src\\Logic_Simulator.cpp" 
+g++ -o Logic_Simulator.exe "src\\Logic_Simulator.o" 
+Info: Nothing to build for Logic_Simulator
+02:28:55 **** Incremental Build of configuration Debug for project Logic_Simulator ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logic_Simulator.o" "..\\src\\Logic_Simulator.cpp" 
+g++ -o Logic_Simulator.exe "src\\Logic_Simulator.o" 
+02:29:12 **** Incremental Build of configuration Debug for project Logic_Simulator ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logic_Simulator.o" "..\\src\\Logic_Simulator.cpp" 
+g++ -o Logic_Simulator.exe "src\\Logic_Simulator.o" 
+Info: Nothing to build for Logic_Simulator
+02:30:02 **** Incremental Build of configuration Debug for project Logic_Simulator ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logic_Simulator.o" "..\\src\\Logic_Simulator.cpp" 
+g++ -o Logic_Simulator.exe "src\\Logic_Simulator.o" 
+Info: Nothing to build for Logic_Simulator
+02:33:23 **** Incremental Build of configuration Debug for project Logic_Simulator ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logic_Simulator.o" "..\\src\\Logic_Simulator.cpp" 
+g++ -o Logic_Simulator.exe "src\\Logic_Simulator.o" 
+Info: Nothing to build for Logic_Simulator
+02:40:42 **** Incremental Build of configuration Debug for project Logic_Simulator ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logic_Simulator.o" "..\\src\\Logic_Simulator.cpp" 
+..\src\Logic_Simulator.cpp: In constructor 'Gate::Gate(Node&, Node&, Node&)':
+..\src\Logic_Simulator.cpp:97:72: error: cannot convert 'Node' to 'Node*' in initialization
+   inputNode1(inputNode1), inputNode2(inputNode2), outputNode(outputNode)
+                                                                        ^
+..\src\Logic_Simulator.cpp:97:72: error: cannot convert 'Node' to 'Node*' in initialization
+..\src\Logic_Simulator.cpp:97:72: error: cannot convert 'Node' to 'Node*' in initialization
+..\src\Logic_Simulator.cpp: In member function 'const Node& Gate::getInputNode1() const':
+..\src\Logic_Simulator.cpp:105:10: error: invalid initialization of reference of type 'const Node&' from expression of type 'Node* const'
+   return inputNode1;
+          ^~~~~~~~~~
+..\src\Logic_Simulator.cpp: In member function 'void Gate::setInputNode1(const Node&)':
+..\src\Logic_Simulator.cpp:109:22: error: cannot convert 'const Node' to 'Node*' in assignment
+   this->inputNode1 = inputNode1;
+                      ^~~~~~~~~~
+..\src\Logic_Simulator.cpp: In member function 'const Node& Gate::getInputNode2() const':
+..\src\Logic_Simulator.cpp:113:10: error: invalid initialization of reference of type 'const Node&' from expression of type 'Node* const'
+   return inputNode2;
+          ^~~~~~~~~~
+..\src\Logic_Simulator.cpp: In member function 'void Gate::setInputNode2(const Node&)':
+..\src\Logic_Simulator.cpp:117:22: error: cannot convert 'const Node' to 'Node*' in assignment
+   this->inputNode2 = inputNode2;
+                      ^~~~~~~~~~
+..\src\Logic_Simulator.cpp: In member function 'const Node& Gate::getOutputNode() const':
+..\src\Logic_Simulator.cpp:121:10: error: invalid initialization of reference of type 'const Node&' from expression of type 'Node* const'
+   return outputNode;
+          ^~~~~~~~~~
+..\src\Logic_Simulator.cpp: In member function 'void Gate::setOutputNode(const Node&)':
+..\src\Logic_Simulator.cpp:125:22: error: cannot convert 'const Node' to 'Node*' in assignment
+   this->outputNode = outputNode;
+                      ^~~~~~~~~~
+..\src\Logic_Simulator.cpp: In member function 'virtual int AndGate::simulateGate()':
+..\src\Logic_Simulator.cpp:140:14: error: request for member 'AND' in '((AndGate*)this)->AndGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   outputNode.AND(inputNode1, inputNode2);
+              ^~~
+..\src\Logic_Simulator.cpp:141:21: error: request for member 'getData' in '((AndGate*)this)->AndGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   return outputNode.getData();
+                     ^~~~~~~
+..\src\Logic_Simulator.cpp: In member function 'virtual int OrGate::simulateGate()':
+..\src\Logic_Simulator.cpp:155:14: error: request for member 'OR' in '((OrGate*)this)->OrGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   outputNode.OR(inputNode1, inputNode2);
+              ^~
+..\src\Logic_Simulator.cpp:156:21: error: request for member 'getData' in '((OrGate*)this)->OrGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   return outputNode.getData();
+                     ^~~~~~~
+..\src\Logic_Simulator.cpp: In member function 'virtual int XorGate::simulateGate()':
+..\src\Logic_Simulator.cpp:170:14: error: request for member 'XOR' in '((XorGate*)this)->XorGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   outputNode.XOR(inputNode1, inputNode2);
+              ^~~
+..\src\Logic_Simulator.cpp:171:21: error: request for member 'getData' in '((XorGate*)this)->XorGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   return outputNode.getData();
+                     ^~~~~~~
+..\src\Logic_Simulator.cpp: In member function 'virtual int NandGate::simulateGate()':
+..\src\Logic_Simulator.cpp:185:14: error: request for member 'XOR' in '((NandGate*)this)->NandGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   outputNode.XOR(inputNode1, inputNode2);
+              ^~~
+..\src\Logic_Simulator.cpp:186:21: error: request for member 'getData' in '((NandGate*)this)->NandGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   return outputNode.getData();
+                     ^~~~~~~
+..\src\Logic_Simulator.cpp: In member function 'virtual int NorGate::simulateGate()':
+..\src\Logic_Simulator.cpp:200:14: error: request for member 'XOR' in '((NorGate*)this)->NorGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   outputNode.XOR(inputNode1, inputNode2);
+              ^~~
+..\src\Logic_Simulator.cpp:201:21: error: request for member 'getData' in '((NorGate*)this)->NorGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   return outputNode.getData();
+                     ^~~~~~~
+..\src\Logic_Simulator.cpp: In member function 'virtual int XnorGate::simulateGate()':
+..\src\Logic_Simulator.cpp:215:14: error: request for member 'XOR' in '((XnorGate*)this)->XnorGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   outputNode.XOR(inputNode1, inputNode2);
+              ^~~
+..\src\Logic_Simulator.cpp:216:21: error: request for member 'getData' in '((XnorGate*)this)->XnorGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   return outputNode.getData();
+                     ^~~~~~~
+..\src\Logic_Simulator.cpp: In member function 'virtual int NotGate::simulateGate()':
+..\src\Logic_Simulator.cpp:230:14: error: request for member 'XOR' in '((NotGate*)this)->NotGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   outputNode.XOR(inputNode1, inputNode2);
+              ^~~
+..\src\Logic_Simulator.cpp:231:21: error: request for member 'getData' in '((NotGate*)this)->NotGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   return outputNode.getData();
+                     ^~~~~~~
+02:41:03 **** Incremental Build of configuration Debug for project Logic_Simulator ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logic_Simulator.o" "..\\src\\Logic_Simulator.cpp" 
+..\src\Logic_Simulator.cpp: In member function 'const Node& Gate::getInputNode1() const':
+..\src\Logic_Simulator.cpp:105:10: error: invalid initialization of reference of type 'const Node&' from expression of type 'Node* const'
+   return inputNode1;
+          ^~~~~~~~~~
+..\src\Logic_Simulator.cpp: In member function 'void Gate::setInputNode1(const Node&)':
+..\src\Logic_Simulator.cpp:109:22: error: cannot convert 'const Node' to 'Node*' in assignment
+   this->inputNode1 = inputNode1;
+                      ^~~~~~~~~~
+..\src\Logic_Simulator.cpp: In member function 'const Node& Gate::getInputNode2() const':
+..\src\Logic_Simulator.cpp:113:10: error: invalid initialization of reference of type 'const Node&' from expression of type 'Node* const'
+   return inputNode2;
+          ^~~~~~~~~~
+..\src\Logic_Simulator.cpp: In member function 'void Gate::setInputNode2(const Node&)':
+..\src\Logic_Simulator.cpp:117:22: error: cannot convert 'const Node' to 'Node*' in assignment
+   this->inputNode2 = inputNode2;
+                      ^~~~~~~~~~
+..\src\Logic_Simulator.cpp: In member function 'const Node& Gate::getOutputNode() const':
+..\src\Logic_Simulator.cpp:121:10: error: invalid initialization of reference of type 'const Node&' from expression of type 'Node* const'
+   return outputNode;
+          ^~~~~~~~~~
+..\src\Logic_Simulator.cpp: In member function 'void Gate::setOutputNode(const Node&)':
+..\src\Logic_Simulator.cpp:125:22: error: cannot convert 'const Node' to 'Node*' in assignment
+   this->outputNode = outputNode;
+                      ^~~~~~~~~~
+..\src\Logic_Simulator.cpp: In constructor 'AndGate::AndGate(Node&, Node&, Node&)':
+..\src\Logic_Simulator.cpp:134:30: error: no matching function for call to 'Gate::Gate(Node&, Node&, Node&)'
+   Gate(input1, input2, output)
+                              ^
+..\src\Logic_Simulator.cpp:96:2: note: candidate: Gate::Gate(Node*, Node*, Node*)
+  Gate(Node* inputNode1, Node* inputNode2, Node* outputNode):
+  ^~~~
+..\src\Logic_Simulator.cpp:96:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:91:2: note: candidate: Gate::Gate()
+  Gate():
+  ^~~~
+..\src\Logic_Simulator.cpp:91:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:85:7: note: candidate: constexpr Gate::Gate(const Gate&)
+ class Gate{
+       ^~~~
+..\src\Logic_Simulator.cpp:85:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp: In member function 'virtual int AndGate::simulateGate()':
+..\src\Logic_Simulator.cpp:140:14: error: request for member 'AND' in '((AndGate*)this)->AndGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   outputNode.AND(inputNode1, inputNode2);
+              ^~~
+..\src\Logic_Simulator.cpp:141:21: error: request for member 'getData' in '((AndGate*)this)->AndGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   return outputNode.getData();
+                     ^~~~~~~
+..\src\Logic_Simulator.cpp: In constructor 'OrGate::OrGate(Node&, Node&, Node&)':
+..\src\Logic_Simulator.cpp:149:30: error: no matching function for call to 'Gate::Gate(Node&, Node&, Node&)'
+   Gate(input1, input2, output)
+                              ^
+..\src\Logic_Simulator.cpp:96:2: note: candidate: Gate::Gate(Node*, Node*, Node*)
+  Gate(Node* inputNode1, Node* inputNode2, Node* outputNode):
+  ^~~~
+..\src\Logic_Simulator.cpp:96:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:91:2: note: candidate: Gate::Gate()
+  Gate():
+  ^~~~
+..\src\Logic_Simulator.cpp:91:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:85:7: note: candidate: constexpr Gate::Gate(const Gate&)
+ class Gate{
+       ^~~~
+..\src\Logic_Simulator.cpp:85:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp: In member function 'virtual int OrGate::simulateGate()':
+..\src\Logic_Simulator.cpp:155:14: error: request for member 'OR' in '((OrGate*)this)->OrGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   outputNode.OR(inputNode1, inputNode2);
+              ^~
+..\src\Logic_Simulator.cpp:156:21: error: request for member 'getData' in '((OrGate*)this)->OrGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   return outputNode.getData();
+                     ^~~~~~~
+..\src\Logic_Simulator.cpp: In constructor 'XorGate::XorGate(Node&, Node&, Node&)':
+..\src\Logic_Simulator.cpp:164:30: error: no matching function for call to 'Gate::Gate(Node&, Node&, Node&)'
+   Gate(input1, input2, output)
+                              ^
+..\src\Logic_Simulator.cpp:96:2: note: candidate: Gate::Gate(Node*, Node*, Node*)
+  Gate(Node* inputNode1, Node* inputNode2, Node* outputNode):
+  ^~~~
+..\src\Logic_Simulator.cpp:96:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:91:2: note: candidate: Gate::Gate()
+  Gate():
+  ^~~~
+..\src\Logic_Simulator.cpp:91:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:85:7: note: candidate: constexpr Gate::Gate(const Gate&)
+ class Gate{
+       ^~~~
+..\src\Logic_Simulator.cpp:85:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp: In member function 'virtual int XorGate::simulateGate()':
+..\src\Logic_Simulator.cpp:170:14: error: request for member 'XOR' in '((XorGate*)this)->XorGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   outputNode.XOR(inputNode1, inputNode2);
+              ^~~
+..\src\Logic_Simulator.cpp:171:21: error: request for member 'getData' in '((XorGate*)this)->XorGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   return outputNode.getData();
+                     ^~~~~~~
+..\src\Logic_Simulator.cpp: In constructor 'NandGate::NandGate(Node&, Node&, Node&)':
+..\src\Logic_Simulator.cpp:179:30: error: no matching function for call to 'Gate::Gate(Node&, Node&, Node&)'
+   Gate(input1, input2, output)
+                              ^
+..\src\Logic_Simulator.cpp:96:2: note: candidate: Gate::Gate(Node*, Node*, Node*)
+  Gate(Node* inputNode1, Node* inputNode2, Node* outputNode):
+  ^~~~
+..\src\Logic_Simulator.cpp:96:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:91:2: note: candidate: Gate::Gate()
+  Gate():
+  ^~~~
+..\src\Logic_Simulator.cpp:91:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:85:7: note: candidate: constexpr Gate::Gate(const Gate&)
+ class Gate{
+       ^~~~
+..\src\Logic_Simulator.cpp:85:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp: In member function 'virtual int NandGate::simulateGate()':
+..\src\Logic_Simulator.cpp:185:14: error: request for member 'XOR' in '((NandGate*)this)->NandGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   outputNode.XOR(inputNode1, inputNode2);
+              ^~~
+..\src\Logic_Simulator.cpp:186:21: error: request for member 'getData' in '((NandGate*)this)->NandGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   return outputNode.getData();
+                     ^~~~~~~
+..\src\Logic_Simulator.cpp: In constructor 'NorGate::NorGate(Node&, Node&, Node&)':
+..\src\Logic_Simulator.cpp:194:30: error: no matching function for call to 'Gate::Gate(Node&, Node&, Node&)'
+   Gate(input1, input2, output)
+                              ^
+..\src\Logic_Simulator.cpp:96:2: note: candidate: Gate::Gate(Node*, Node*, Node*)
+  Gate(Node* inputNode1, Node* inputNode2, Node* outputNode):
+  ^~~~
+..\src\Logic_Simulator.cpp:96:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:91:2: note: candidate: Gate::Gate()
+  Gate():
+  ^~~~
+..\src\Logic_Simulator.cpp:91:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:85:7: note: candidate: constexpr Gate::Gate(const Gate&)
+ class Gate{
+       ^~~~
+..\src\Logic_Simulator.cpp:85:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp: In member function 'virtual int NorGate::simulateGate()':
+..\src\Logic_Simulator.cpp:200:14: error: request for member 'XOR' in '((NorGate*)this)->NorGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   outputNode.XOR(inputNode1, inputNode2);
+              ^~~
+..\src\Logic_Simulator.cpp:201:21: error: request for member 'getData' in '((NorGate*)this)->NorGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   return outputNode.getData();
+                     ^~~~~~~
+..\src\Logic_Simulator.cpp: In constructor 'XnorGate::XnorGate(Node&, Node&, Node&)':
+..\src\Logic_Simulator.cpp:209:30: error: no matching function for call to 'Gate::Gate(Node&, Node&, Node&)'
+   Gate(input1, input2, output)
+                              ^
+..\src\Logic_Simulator.cpp:96:2: note: candidate: Gate::Gate(Node*, Node*, Node*)
+  Gate(Node* inputNode1, Node* inputNode2, Node* outputNode):
+  ^~~~
+..\src\Logic_Simulator.cpp:96:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:91:2: note: candidate: Gate::Gate()
+  Gate():
+  ^~~~
+..\src\Logic_Simulator.cpp:91:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:85:7: note: candidate: constexpr Gate::Gate(const Gate&)
+ class Gate{
+       ^~~~
+..\src\Logic_Simulator.cpp:85:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp: In member function 'virtual int XnorGate::simulateGate()':
+..\src\Logic_Simulator.cpp:215:14: error: request for member 'XOR' in '((XnorGate*)this)->XnorGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   outputNode.XOR(inputNode1, inputNode2);
+              ^~~
+..\src\Logic_Simulator.cpp:216:21: error: request for member 'getData' in '((XnorGate*)this)->XnorGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   return outputNode.getData();
+                     ^~~~~~~
+..\src\Logic_Simulator.cpp: In constructor 'NotGate::NotGate(Node&, Node&, Node&)':
+..\src\Logic_Simulator.cpp:224:30: error: no matching function for call to 'Gate::Gate(Node&, Node&, Node&)'
+   Gate(input1, input2, output)
+                              ^
+..\src\Logic_Simulator.cpp:96:2: note: candidate: Gate::Gate(Node*, Node*, Node*)
+  Gate(Node* inputNode1, Node* inputNode2, Node* outputNode):
+  ^~~~
+..\src\Logic_Simulator.cpp:96:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:91:2: note: candidate: Gate::Gate()
+  Gate():
+  ^~~~
+..\src\Logic_Simulator.cpp:91:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:85:7: note: candidate: constexpr Gate::Gate(const Gate&)
+ class Gate{
+       ^~~~
+..\src\Logic_Simulator.cpp:85:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp: In member function 'virtual int NotGate::simulateGate()':
+..\src\Logic_Simulator.cpp:230:14: error: request for member 'XOR' in '((NotGate*)this)->NotGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   outputNode.XOR(inputNode1, inputNode2);
+              ^~~
+..\src\Logic_Simulator.cpp:231:21: error: request for member 'getData' in '((NotGate*)this)->NotGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   return outputNode.getData();
+                     ^~~~~~~
+02:41:51 **** Incremental Build of configuration Debug for project Logic_Simulator ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logic_Simulator.o" "..\\src\\Logic_Simulator.cpp" 
+..\src\Logic_Simulator.cpp: In member function 'const Node*& Gate::getInputNode1() const':
+..\src\Logic_Simulator.cpp:105:10: error: invalid initialization of non-const reference of type 'const Node*&' from an rvalue of type 'const Node*'
+   return inputNode1;
+          ^~~~~~~~~~
+..\src\Logic_Simulator.cpp: In member function 'void Gate::setInputNode1(const Node*&)':
+..\src\Logic_Simulator.cpp:109:22: error: invalid conversion from 'const Node*' to 'Node*' [-fpermissive]
+   this->inputNode1 = inputNode1;
+                      ^~~~~~~~~~
+..\src\Logic_Simulator.cpp: In member function 'const Node*& Gate::getInputNode2() const':
+..\src\Logic_Simulator.cpp:113:10: error: invalid initialization of non-const reference of type 'const Node*&' from an rvalue of type 'const Node*'
+   return inputNode2;
+          ^~~~~~~~~~
+..\src\Logic_Simulator.cpp: In member function 'void Gate::setInputNode2(const Node*&)':
+..\src\Logic_Simulator.cpp:117:22: error: invalid conversion from 'const Node*' to 'Node*' [-fpermissive]
+   this->inputNode2 = inputNode2;
+                      ^~~~~~~~~~
+..\src\Logic_Simulator.cpp: In member function 'const Node*& Gate::getOutputNode() const':
+..\src\Logic_Simulator.cpp:121:10: error: invalid initialization of non-const reference of type 'const Node*&' from an rvalue of type 'const Node*'
+   return outputNode;
+          ^~~~~~~~~~
+..\src\Logic_Simulator.cpp: In member function 'void Gate::setOutputNode(const Node*&)':
+..\src\Logic_Simulator.cpp:125:22: error: invalid conversion from 'const Node*' to 'Node*' [-fpermissive]
+   this->outputNode = outputNode;
+                      ^~~~~~~~~~
+..\src\Logic_Simulator.cpp: In constructor 'AndGate::AndGate(Node&, Node&, Node&)':
+..\src\Logic_Simulator.cpp:134:30: error: no matching function for call to 'Gate::Gate(Node&, Node&, Node&)'
+   Gate(input1, input2, output)
+                              ^
+..\src\Logic_Simulator.cpp:96:2: note: candidate: Gate::Gate(Node*, Node*, Node*)
+  Gate(Node* inputNode1, Node* inputNode2, Node* outputNode):
+  ^~~~
+..\src\Logic_Simulator.cpp:96:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:91:2: note: candidate: Gate::Gate()
+  Gate():
+  ^~~~
+..\src\Logic_Simulator.cpp:91:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:85:7: note: candidate: constexpr Gate::Gate(const Gate&)
+ class Gate{
+       ^~~~
+..\src\Logic_Simulator.cpp:85:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp: In member function 'virtual int AndGate::simulateGate()':
+..\src\Logic_Simulator.cpp:140:14: error: request for member 'AND' in '((AndGate*)this)->AndGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   outputNode.AND(inputNode1, inputNode2);
+              ^~~
+..\src\Logic_Simulator.cpp:141:21: error: request for member 'getData' in '((AndGate*)this)->AndGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   return outputNode.getData();
+                     ^~~~~~~
+..\src\Logic_Simulator.cpp: In constructor 'OrGate::OrGate(Node&, Node&, Node&)':
+..\src\Logic_Simulator.cpp:149:30: error: no matching function for call to 'Gate::Gate(Node&, Node&, Node&)'
+   Gate(input1, input2, output)
+                              ^
+..\src\Logic_Simulator.cpp:96:2: note: candidate: Gate::Gate(Node*, Node*, Node*)
+  Gate(Node* inputNode1, Node* inputNode2, Node* outputNode):
+  ^~~~
+..\src\Logic_Simulator.cpp:96:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:91:2: note: candidate: Gate::Gate()
+  Gate():
+  ^~~~
+..\src\Logic_Simulator.cpp:91:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:85:7: note: candidate: constexpr Gate::Gate(const Gate&)
+ class Gate{
+       ^~~~
+..\src\Logic_Simulator.cpp:85:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp: In member function 'virtual int OrGate::simulateGate()':
+..\src\Logic_Simulator.cpp:155:14: error: request for member 'OR' in '((OrGate*)this)->OrGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   outputNode.OR(inputNode1, inputNode2);
+              ^~
+..\src\Logic_Simulator.cpp:156:21: error: request for member 'getData' in '((OrGate*)this)->OrGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   return outputNode.getData();
+                     ^~~~~~~
+..\src\Logic_Simulator.cpp: In constructor 'XorGate::XorGate(Node&, Node&, Node&)':
+..\src\Logic_Simulator.cpp:164:30: error: no matching function for call to 'Gate::Gate(Node&, Node&, Node&)'
+   Gate(input1, input2, output)
+                              ^
+..\src\Logic_Simulator.cpp:96:2: note: candidate: Gate::Gate(Node*, Node*, Node*)
+  Gate(Node* inputNode1, Node* inputNode2, Node* outputNode):
+  ^~~~
+..\src\Logic_Simulator.cpp:96:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:91:2: note: candidate: Gate::Gate()
+  Gate():
+  ^~~~
+..\src\Logic_Simulator.cpp:91:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:85:7: note: candidate: constexpr Gate::Gate(const Gate&)
+ class Gate{
+       ^~~~
+..\src\Logic_Simulator.cpp:85:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp: In member function 'virtual int XorGate::simulateGate()':
+..\src\Logic_Simulator.cpp:170:14: error: request for member 'XOR' in '((XorGate*)this)->XorGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   outputNode.XOR(inputNode1, inputNode2);
+              ^~~
+..\src\Logic_Simulator.cpp:171:21: error: request for member 'getData' in '((XorGate*)this)->XorGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   return outputNode.getData();
+                     ^~~~~~~
+..\src\Logic_Simulator.cpp: In constructor 'NandGate::NandGate(Node&, Node&, Node&)':
+..\src\Logic_Simulator.cpp:179:30: error: no matching function for call to 'Gate::Gate(Node&, Node&, Node&)'
+   Gate(input1, input2, output)
+                              ^
+..\src\Logic_Simulator.cpp:96:2: note: candidate: Gate::Gate(Node*, Node*, Node*)
+  Gate(Node* inputNode1, Node* inputNode2, Node* outputNode):
+  ^~~~
+..\src\Logic_Simulator.cpp:96:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:91:2: note: candidate: Gate::Gate()
+  Gate():
+  ^~~~
+..\src\Logic_Simulator.cpp:91:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:85:7: note: candidate: constexpr Gate::Gate(const Gate&)
+ class Gate{
+       ^~~~
+..\src\Logic_Simulator.cpp:85:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp: In member function 'virtual int NandGate::simulateGate()':
+..\src\Logic_Simulator.cpp:185:14: error: request for member 'XOR' in '((NandGate*)this)->NandGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   outputNode.XOR(inputNode1, inputNode2);
+              ^~~
+..\src\Logic_Simulator.cpp:186:21: error: request for member 'getData' in '((NandGate*)this)->NandGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   return outputNode.getData();
+                     ^~~~~~~
+..\src\Logic_Simulator.cpp: In constructor 'NorGate::NorGate(Node&, Node&, Node&)':
+..\src\Logic_Simulator.cpp:194:30: error: no matching function for call to 'Gate::Gate(Node&, Node&, Node&)'
+   Gate(input1, input2, output)
+                              ^
+..\src\Logic_Simulator.cpp:96:2: note: candidate: Gate::Gate(Node*, Node*, Node*)
+  Gate(Node* inputNode1, Node* inputNode2, Node* outputNode):
+  ^~~~
+..\src\Logic_Simulator.cpp:96:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:91:2: note: candidate: Gate::Gate()
+  Gate():
+  ^~~~
+..\src\Logic_Simulator.cpp:91:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:85:7: note: candidate: constexpr Gate::Gate(const Gate&)
+ class Gate{
+       ^~~~
+..\src\Logic_Simulator.cpp:85:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp: In member function 'virtual int NorGate::simulateGate()':
+..\src\Logic_Simulator.cpp:200:14: error: request for member 'XOR' in '((NorGate*)this)->NorGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   outputNode.XOR(inputNode1, inputNode2);
+              ^~~
+..\src\Logic_Simulator.cpp:201:21: error: request for member 'getData' in '((NorGate*)this)->NorGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   return outputNode.getData();
+                     ^~~~~~~
+..\src\Logic_Simulator.cpp: In constructor 'XnorGate::XnorGate(Node&, Node&, Node&)':
+..\src\Logic_Simulator.cpp:209:30: error: no matching function for call to 'Gate::Gate(Node&, Node&, Node&)'
+   Gate(input1, input2, output)
+                              ^
+..\src\Logic_Simulator.cpp:96:2: note: candidate: Gate::Gate(Node*, Node*, Node*)
+  Gate(Node* inputNode1, Node* inputNode2, Node* outputNode):
+  ^~~~
+..\src\Logic_Simulator.cpp:96:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:91:2: note: candidate: Gate::Gate()
+  Gate():
+  ^~~~
+..\src\Logic_Simulator.cpp:91:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:85:7: note: candidate: constexpr Gate::Gate(const Gate&)
+ class Gate{
+       ^~~~
+..\src\Logic_Simulator.cpp:85:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp: In member function 'virtual int XnorGate::simulateGate()':
+..\src\Logic_Simulator.cpp:215:14: error: request for member 'XOR' in '((XnorGate*)this)->XnorGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   outputNode.XOR(inputNode1, inputNode2);
+              ^~~
+..\src\Logic_Simulator.cpp:216:21: error: request for member 'getData' in '((XnorGate*)this)->XnorGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   return outputNode.getData();
+                     ^~~~~~~
+..\src\Logic_Simulator.cpp: In constructor 'NotGate::NotGate(Node&, Node&, Node&)':
+..\src\Logic_Simulator.cpp:224:30: error: no matching function for call to 'Gate::Gate(Node&, Node&, Node&)'
+   Gate(input1, input2, output)
+                              ^
+..\src\Logic_Simulator.cpp:96:2: note: candidate: Gate::Gate(Node*, Node*, Node*)
+  Gate(Node* inputNode1, Node* inputNode2, Node* outputNode):
+  ^~~~
+..\src\Logic_Simulator.cpp:96:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:91:2: note: candidate: Gate::Gate()
+  Gate():
+  ^~~~
+..\src\Logic_Simulator.cpp:91:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:85:7: note: candidate: constexpr Gate::Gate(const Gate&)
+ class Gate{
+       ^~~~
+..\src\Logic_Simulator.cpp:85:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp: In member function 'virtual int NotGate::simulateGate()':
+..\src\Logic_Simulator.cpp:230:14: error: request for member 'XOR' in '((NotGate*)this)->NotGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   outputNode.XOR(inputNode1, inputNode2);
+              ^~~
+..\src\Logic_Simulator.cpp:231:21: error: request for member 'getData' in '((NotGate*)this)->NotGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   return outputNode.getData();
+                     ^~~~~~~
+..\src\Logic_Simulator.cpp: In member function 'void Simulator::postGate(Gate*)':
+..\src\Logic_Simulator.cpp:254:33: error: request for member 'getName' in 'gate->Gate::getOutputNode()', which is of pointer type 'const Node*' (maybe you meant to use '->' ?)
+   cout<<(gate->getOutputNode()).getName()<<endl;
+                                 ^~~~~~~
+..\src\Logic_Simulator.cpp:255:33: error: request for member 'getData' in 'gate->Gate::getOutputNode()', which is of pointer type 'const Node*' (maybe you meant to use '->' ?)
+   cout<<(gate->getOutputNode()).getData()<<endl;
+                                 ^~~~~~~
+02:42:33 **** Incremental Build of configuration Debug for project Logic_Simulator ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logic_Simulator.o" "..\\src\\Logic_Simulator.cpp" 
+..\src\Logic_Simulator.cpp: In member function 'const Node*& Gate::getInputNode1() const':
+..\src\Logic_Simulator.cpp:105:10: error: invalid initialization of non-const reference of type 'const Node*&' from an rvalue of type 'const Node*'
+   return inputNode1;
+          ^~~~~~~~~~
+..\src\Logic_Simulator.cpp: In member function 'const Node*& Gate::getInputNode2() const':
+..\src\Logic_Simulator.cpp:113:10: error: invalid initialization of non-const reference of type 'const Node*&' from an rvalue of type 'const Node*'
+   return inputNode2;
+          ^~~~~~~~~~
+..\src\Logic_Simulator.cpp: In member function 'const Node*& Gate::getOutputNode() const':
+..\src\Logic_Simulator.cpp:121:10: error: invalid initialization of non-const reference of type 'const Node*&' from an rvalue of type 'const Node*'
+   return outputNode;
+          ^~~~~~~~~~
+..\src\Logic_Simulator.cpp: In constructor 'AndGate::AndGate(Node&, Node&, Node&)':
+..\src\Logic_Simulator.cpp:134:30: error: no matching function for call to 'Gate::Gate(Node&, Node&, Node&)'
+   Gate(input1, input2, output)
+                              ^
+..\src\Logic_Simulator.cpp:96:2: note: candidate: Gate::Gate(Node*, Node*, Node*)
+  Gate(Node* inputNode1, Node* inputNode2, Node* outputNode):
+  ^~~~
+..\src\Logic_Simulator.cpp:96:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:91:2: note: candidate: Gate::Gate()
+  Gate():
+  ^~~~
+..\src\Logic_Simulator.cpp:91:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:85:7: note: candidate: constexpr Gate::Gate(const Gate&)
+ class Gate{
+       ^~~~
+..\src\Logic_Simulator.cpp:85:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp: In member function 'virtual int AndGate::simulateGate()':
+..\src\Logic_Simulator.cpp:140:14: error: request for member 'AND' in '((AndGate*)this)->AndGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   outputNode.AND(inputNode1, inputNode2);
+              ^~~
+..\src\Logic_Simulator.cpp:141:21: error: request for member 'getData' in '((AndGate*)this)->AndGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   return outputNode.getData();
+                     ^~~~~~~
+..\src\Logic_Simulator.cpp: In constructor 'OrGate::OrGate(Node&, Node&, Node&)':
+..\src\Logic_Simulator.cpp:149:30: error: no matching function for call to 'Gate::Gate(Node&, Node&, Node&)'
+   Gate(input1, input2, output)
+                              ^
+..\src\Logic_Simulator.cpp:96:2: note: candidate: Gate::Gate(Node*, Node*, Node*)
+  Gate(Node* inputNode1, Node* inputNode2, Node* outputNode):
+  ^~~~
+..\src\Logic_Simulator.cpp:96:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:91:2: note: candidate: Gate::Gate()
+  Gate():
+  ^~~~
+..\src\Logic_Simulator.cpp:91:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:85:7: note: candidate: constexpr Gate::Gate(const Gate&)
+ class Gate{
+       ^~~~
+..\src\Logic_Simulator.cpp:85:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp: In member function 'virtual int OrGate::simulateGate()':
+..\src\Logic_Simulator.cpp:155:14: error: request for member 'OR' in '((OrGate*)this)->OrGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   outputNode.OR(inputNode1, inputNode2);
+              ^~
+..\src\Logic_Simulator.cpp:156:21: error: request for member 'getData' in '((OrGate*)this)->OrGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   return outputNode.getData();
+                     ^~~~~~~
+..\src\Logic_Simulator.cpp: In constructor 'XorGate::XorGate(Node&, Node&, Node&)':
+..\src\Logic_Simulator.cpp:164:30: error: no matching function for call to 'Gate::Gate(Node&, Node&, Node&)'
+   Gate(input1, input2, output)
+                              ^
+..\src\Logic_Simulator.cpp:96:2: note: candidate: Gate::Gate(Node*, Node*, Node*)
+  Gate(Node* inputNode1, Node* inputNode2, Node* outputNode):
+  ^~~~
+..\src\Logic_Simulator.cpp:96:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:91:2: note: candidate: Gate::Gate()
+  Gate():
+  ^~~~
+..\src\Logic_Simulator.cpp:91:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:85:7: note: candidate: constexpr Gate::Gate(const Gate&)
+ class Gate{
+       ^~~~
+..\src\Logic_Simulator.cpp:85:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp: In member function 'virtual int XorGate::simulateGate()':
+..\src\Logic_Simulator.cpp:170:14: error: request for member 'XOR' in '((XorGate*)this)->XorGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   outputNode.XOR(inputNode1, inputNode2);
+              ^~~
+..\src\Logic_Simulator.cpp:171:21: error: request for member 'getData' in '((XorGate*)this)->XorGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   return outputNode.getData();
+                     ^~~~~~~
+..\src\Logic_Simulator.cpp: In constructor 'NandGate::NandGate(Node&, Node&, Node&)':
+..\src\Logic_Simulator.cpp:179:30: error: no matching function for call to 'Gate::Gate(Node&, Node&, Node&)'
+   Gate(input1, input2, output)
+                              ^
+..\src\Logic_Simulator.cpp:96:2: note: candidate: Gate::Gate(Node*, Node*, Node*)
+  Gate(Node* inputNode1, Node* inputNode2, Node* outputNode):
+  ^~~~
+..\src\Logic_Simulator.cpp:96:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:91:2: note: candidate: Gate::Gate()
+  Gate():
+  ^~~~
+..\src\Logic_Simulator.cpp:91:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:85:7: note: candidate: constexpr Gate::Gate(const Gate&)
+ class Gate{
+       ^~~~
+..\src\Logic_Simulator.cpp:85:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp: In member function 'virtual int NandGate::simulateGate()':
+..\src\Logic_Simulator.cpp:185:14: error: request for member 'XOR' in '((NandGate*)this)->NandGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   outputNode.XOR(inputNode1, inputNode2);
+              ^~~
+..\src\Logic_Simulator.cpp:186:21: error: request for member 'getData' in '((NandGate*)this)->NandGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   return outputNode.getData();
+                     ^~~~~~~
+..\src\Logic_Simulator.cpp: In constructor 'NorGate::NorGate(Node&, Node&, Node&)':
+..\src\Logic_Simulator.cpp:194:30: error: no matching function for call to 'Gate::Gate(Node&, Node&, Node&)'
+   Gate(input1, input2, output)
+                              ^
+..\src\Logic_Simulator.cpp:96:2: note: candidate: Gate::Gate(Node*, Node*, Node*)
+  Gate(Node* inputNode1, Node* inputNode2, Node* outputNode):
+  ^~~~
+..\src\Logic_Simulator.cpp:96:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:91:2: note: candidate: Gate::Gate()
+  Gate():
+  ^~~~
+..\src\Logic_Simulator.cpp:91:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:85:7: note: candidate: constexpr Gate::Gate(const Gate&)
+ class Gate{
+       ^~~~
+..\src\Logic_Simulator.cpp:85:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp: In member function 'virtual int NorGate::simulateGate()':
+..\src\Logic_Simulator.cpp:200:14: error: request for member 'XOR' in '((NorGate*)this)->NorGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   outputNode.XOR(inputNode1, inputNode2);
+              ^~~
+..\src\Logic_Simulator.cpp:201:21: error: request for member 'getData' in '((NorGate*)this)->NorGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   return outputNode.getData();
+                     ^~~~~~~
+..\src\Logic_Simulator.cpp: In constructor 'XnorGate::XnorGate(Node&, Node&, Node&)':
+..\src\Logic_Simulator.cpp:209:30: error: no matching function for call to 'Gate::Gate(Node&, Node&, Node&)'
+   Gate(input1, input2, output)
+                              ^
+..\src\Logic_Simulator.cpp:96:2: note: candidate: Gate::Gate(Node*, Node*, Node*)
+  Gate(Node* inputNode1, Node* inputNode2, Node* outputNode):
+  ^~~~
+..\src\Logic_Simulator.cpp:96:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:91:2: note: candidate: Gate::Gate()
+  Gate():
+  ^~~~
+..\src\Logic_Simulator.cpp:91:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:85:7: note: candidate: constexpr Gate::Gate(const Gate&)
+ class Gate{
+       ^~~~
+..\src\Logic_Simulator.cpp:85:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp: In member function 'virtual int XnorGate::simulateGate()':
+..\src\Logic_Simulator.cpp:215:14: error: request for member 'XOR' in '((XnorGate*)this)->XnorGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   outputNode.XOR(inputNode1, inputNode2);
+              ^~~
+..\src\Logic_Simulator.cpp:216:21: error: request for member 'getData' in '((XnorGate*)this)->XnorGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   return outputNode.getData();
+                     ^~~~~~~
+..\src\Logic_Simulator.cpp: In constructor 'NotGate::NotGate(Node&, Node&, Node&)':
+..\src\Logic_Simulator.cpp:224:30: error: no matching function for call to 'Gate::Gate(Node&, Node&, Node&)'
+   Gate(input1, input2, output)
+                              ^
+..\src\Logic_Simulator.cpp:96:2: note: candidate: Gate::Gate(Node*, Node*, Node*)
+  Gate(Node* inputNode1, Node* inputNode2, Node* outputNode):
+  ^~~~
+..\src\Logic_Simulator.cpp:96:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:91:2: note: candidate: Gate::Gate()
+  Gate():
+  ^~~~
+..\src\Logic_Simulator.cpp:91:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:85:7: note: candidate: constexpr Gate::Gate(const Gate&)
+ class Gate{
+       ^~~~
+..\src\Logic_Simulator.cpp:85:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp: In member function 'virtual int NotGate::simulateGate()':
+..\src\Logic_Simulator.cpp:230:14: error: request for member 'XOR' in '((NotGate*)this)->NotGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   outputNode.XOR(inputNode1, inputNode2);
+              ^~~
+..\src\Logic_Simulator.cpp:231:21: error: request for member 'getData' in '((NotGate*)this)->NotGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   return outputNode.getData();
+                     ^~~~~~~
+..\src\Logic_Simulator.cpp: In member function 'void Simulator::postGate(Gate*)':
+..\src\Logic_Simulator.cpp:254:33: error: request for member 'getName' in 'gate->Gate::getOutputNode()', which is of pointer type 'const Node*' (maybe you meant to use '->' ?)
+   cout<<(gate->getOutputNode()).getName()<<endl;
+                                 ^~~~~~~
+..\src\Logic_Simulator.cpp:255:33: error: request for member 'getData' in 'gate->Gate::getOutputNode()', which is of pointer type 'const Node*' (maybe you meant to use '->' ?)
+   cout<<(gate->getOutputNode()).getData()<<endl;
+                                 ^~~~~~~
+02:43:48 **** Incremental Build of configuration Debug for project Logic_Simulator ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logic_Simulator.o" "..\\src\\Logic_Simulator.cpp" 
+..\src\Logic_Simulator.cpp: In constructor 'AndGate::AndGate(Node&, Node&, Node&)':
+..\src\Logic_Simulator.cpp:134:30: error: no matching function for call to 'Gate::Gate(Node&, Node&, Node&)'
+   Gate(input1, input2, output)
+                              ^
+..\src\Logic_Simulator.cpp:96:2: note: candidate: Gate::Gate(Node*, Node*, Node*)
+  Gate(Node* inputNode1, Node* inputNode2, Node* outputNode):
+  ^~~~
+..\src\Logic_Simulator.cpp:96:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:91:2: note: candidate: Gate::Gate()
+  Gate():
+  ^~~~
+..\src\Logic_Simulator.cpp:91:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:85:7: note: candidate: constexpr Gate::Gate(const Gate&)
+ class Gate{
+       ^~~~
+..\src\Logic_Simulator.cpp:85:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp: In member function 'virtual int AndGate::simulateGate()':
+..\src\Logic_Simulator.cpp:140:14: error: request for member 'AND' in '((AndGate*)this)->AndGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   outputNode.AND(inputNode1, inputNode2);
+              ^~~
+..\src\Logic_Simulator.cpp:141:21: error: request for member 'getData' in '((AndGate*)this)->AndGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   return outputNode.getData();
+                     ^~~~~~~
+..\src\Logic_Simulator.cpp: In constructor 'OrGate::OrGate(Node&, Node&, Node&)':
+..\src\Logic_Simulator.cpp:149:30: error: no matching function for call to 'Gate::Gate(Node&, Node&, Node&)'
+   Gate(input1, input2, output)
+                              ^
+..\src\Logic_Simulator.cpp:96:2: note: candidate: Gate::Gate(Node*, Node*, Node*)
+  Gate(Node* inputNode1, Node* inputNode2, Node* outputNode):
+  ^~~~
+..\src\Logic_Simulator.cpp:96:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:91:2: note: candidate: Gate::Gate()
+  Gate():
+  ^~~~
+..\src\Logic_Simulator.cpp:91:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:85:7: note: candidate: constexpr Gate::Gate(const Gate&)
+ class Gate{
+       ^~~~
+..\src\Logic_Simulator.cpp:85:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp: In member function 'virtual int OrGate::simulateGate()':
+..\src\Logic_Simulator.cpp:155:14: error: request for member 'OR' in '((OrGate*)this)->OrGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   outputNode.OR(inputNode1, inputNode2);
+              ^~
+..\src\Logic_Simulator.cpp:156:21: error: request for member 'getData' in '((OrGate*)this)->OrGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   return outputNode.getData();
+                     ^~~~~~~
+..\src\Logic_Simulator.cpp: In constructor 'XorGate::XorGate(Node&, Node&, Node&)':
+..\src\Logic_Simulator.cpp:164:30: error: no matching function for call to 'Gate::Gate(Node&, Node&, Node&)'
+   Gate(input1, input2, output)
+                              ^
+..\src\Logic_Simulator.cpp:96:2: note: candidate: Gate::Gate(Node*, Node*, Node*)
+  Gate(Node* inputNode1, Node* inputNode2, Node* outputNode):
+  ^~~~
+..\src\Logic_Simulator.cpp:96:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:91:2: note: candidate: Gate::Gate()
+  Gate():
+  ^~~~
+..\src\Logic_Simulator.cpp:91:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:85:7: note: candidate: constexpr Gate::Gate(const Gate&)
+ class Gate{
+       ^~~~
+..\src\Logic_Simulator.cpp:85:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp: In member function 'virtual int XorGate::simulateGate()':
+..\src\Logic_Simulator.cpp:170:14: error: request for member 'XOR' in '((XorGate*)this)->XorGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   outputNode.XOR(inputNode1, inputNode2);
+              ^~~
+..\src\Logic_Simulator.cpp:171:21: error: request for member 'getData' in '((XorGate*)this)->XorGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   return outputNode.getData();
+                     ^~~~~~~
+..\src\Logic_Simulator.cpp: In constructor 'NandGate::NandGate(Node&, Node&, Node&)':
+..\src\Logic_Simulator.cpp:179:30: error: no matching function for call to 'Gate::Gate(Node&, Node&, Node&)'
+   Gate(input1, input2, output)
+                              ^
+..\src\Logic_Simulator.cpp:96:2: note: candidate: Gate::Gate(Node*, Node*, Node*)
+  Gate(Node* inputNode1, Node* inputNode2, Node* outputNode):
+  ^~~~
+..\src\Logic_Simulator.cpp:96:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:91:2: note: candidate: Gate::Gate()
+  Gate():
+  ^~~~
+..\src\Logic_Simulator.cpp:91:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:85:7: note: candidate: constexpr Gate::Gate(const Gate&)
+ class Gate{
+       ^~~~
+..\src\Logic_Simulator.cpp:85:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp: In member function 'virtual int NandGate::simulateGate()':
+..\src\Logic_Simulator.cpp:185:14: error: request for member 'XOR' in '((NandGate*)this)->NandGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   outputNode.XOR(inputNode1, inputNode2);
+              ^~~
+..\src\Logic_Simulator.cpp:186:21: error: request for member 'getData' in '((NandGate*)this)->NandGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   return outputNode.getData();
+                     ^~~~~~~
+..\src\Logic_Simulator.cpp: In constructor 'NorGate::NorGate(Node&, Node&, Node&)':
+..\src\Logic_Simulator.cpp:194:30: error: no matching function for call to 'Gate::Gate(Node&, Node&, Node&)'
+   Gate(input1, input2, output)
+                              ^
+..\src\Logic_Simulator.cpp:96:2: note: candidate: Gate::Gate(Node*, Node*, Node*)
+  Gate(Node* inputNode1, Node* inputNode2, Node* outputNode):
+  ^~~~
+..\src\Logic_Simulator.cpp:96:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:91:2: note: candidate: Gate::Gate()
+  Gate():
+  ^~~~
+..\src\Logic_Simulator.cpp:91:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:85:7: note: candidate: constexpr Gate::Gate(const Gate&)
+ class Gate{
+       ^~~~
+..\src\Logic_Simulator.cpp:85:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp: In member function 'virtual int NorGate::simulateGate()':
+..\src\Logic_Simulator.cpp:200:14: error: request for member 'XOR' in '((NorGate*)this)->NorGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   outputNode.XOR(inputNode1, inputNode2);
+              ^~~
+..\src\Logic_Simulator.cpp:201:21: error: request for member 'getData' in '((NorGate*)this)->NorGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   return outputNode.getData();
+                     ^~~~~~~
+..\src\Logic_Simulator.cpp: In constructor 'XnorGate::XnorGate(Node&, Node&, Node&)':
+..\src\Logic_Simulator.cpp:209:30: error: no matching function for call to 'Gate::Gate(Node&, Node&, Node&)'
+   Gate(input1, input2, output)
+                              ^
+..\src\Logic_Simulator.cpp:96:2: note: candidate: Gate::Gate(Node*, Node*, Node*)
+  Gate(Node* inputNode1, Node* inputNode2, Node* outputNode):
+  ^~~~
+..\src\Logic_Simulator.cpp:96:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:91:2: note: candidate: Gate::Gate()
+  Gate():
+  ^~~~
+..\src\Logic_Simulator.cpp:91:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:85:7: note: candidate: constexpr Gate::Gate(const Gate&)
+ class Gate{
+       ^~~~
+..\src\Logic_Simulator.cpp:85:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp: In member function 'virtual int XnorGate::simulateGate()':
+..\src\Logic_Simulator.cpp:215:14: error: request for member 'XOR' in '((XnorGate*)this)->XnorGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   outputNode.XOR(inputNode1, inputNode2);
+              ^~~
+..\src\Logic_Simulator.cpp:216:21: error: request for member 'getData' in '((XnorGate*)this)->XnorGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   return outputNode.getData();
+                     ^~~~~~~
+..\src\Logic_Simulator.cpp: In constructor 'NotGate::NotGate(Node&, Node&, Node&)':
+..\src\Logic_Simulator.cpp:224:30: error: no matching function for call to 'Gate::Gate(Node&, Node&, Node&)'
+   Gate(input1, input2, output)
+                              ^
+..\src\Logic_Simulator.cpp:96:2: note: candidate: Gate::Gate(Node*, Node*, Node*)
+  Gate(Node* inputNode1, Node* inputNode2, Node* outputNode):
+  ^~~~
+..\src\Logic_Simulator.cpp:96:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:91:2: note: candidate: Gate::Gate()
+  Gate():
+  ^~~~
+..\src\Logic_Simulator.cpp:91:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:85:7: note: candidate: constexpr Gate::Gate(const Gate&)
+ class Gate{
+       ^~~~
+..\src\Logic_Simulator.cpp:85:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp: In member function 'virtual int NotGate::simulateGate()':
+..\src\Logic_Simulator.cpp:230:14: error: request for member 'XOR' in '((NotGate*)this)->NotGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   outputNode.XOR(inputNode1, inputNode2);
+              ^~~
+..\src\Logic_Simulator.cpp:231:21: error: request for member 'getData' in '((NotGate*)this)->NotGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   return outputNode.getData();
+                     ^~~~~~~
+..\src\Logic_Simulator.cpp: In member function 'void Simulator::postGate(Gate*)':
+..\src\Logic_Simulator.cpp:254:16: error: 'class Gate' has no member named 'getOutputNode'; did you mean 'outputNode'?
+   cout<<(gate->getOutputNode()).getName()<<endl;
+                ^~~~~~~~~~~~~
+..\src\Logic_Simulator.cpp:255:16: error: 'class Gate' has no member named 'getOutputNode'; did you mean 'outputNode'?
+   cout<<(gate->getOutputNode()).getData()<<endl;
+                ^~~~~~~~~~~~~
+..\src\Logic_Simulator.cpp: In member function 'void Simulator::startSimulate()':
+..\src\Logic_Simulator.cpp:277:16: error: 'class Gate' has no member named 'getOutputNode'; did you mean 'outputNode'?
+    cout<<gate->getOutputNode()<<" "<<gate->getInputNode1()<<" "<<gate->getInputNode2()<<endl;
+                ^~~~~~~~~~~~~
+..\src\Logic_Simulator.cpp:277:44: error: 'class Gate' has no member named 'getInputNode1'; did you mean 'inputNode1'?
+    cout<<gate->getOutputNode()<<" "<<gate->getInputNode1()<<" "<<gate->getInputNode2()<<endl;
+                                            ^~~~~~~~~~~~~
+..\src\Logic_Simulator.cpp:277:72: error: 'class Gate' has no member named 'getInputNode2'; did you mean 'inputNode2'?
+    cout<<gate->getOutputNode()<<" "<<gate->getInputNode1()<<" "<<gate->getInputNode2()<<endl;
+                                                                        ^~~~~~~~~~~~~
+02:45:32 **** Incremental Build of configuration Debug for project Logic_Simulator ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logic_Simulator.o" "..\\src\\Logic_Simulator.cpp" 
+..\src\Logic_Simulator.cpp: In member function 'virtual int AndGate::simulateGate()':
+..\src\Logic_Simulator.cpp:140:41: error: no matching function for call to 'Node::AND(Node*&, Node*&)'
+   outputNode->AND(inputNode1, inputNode2);
+                                         ^
+..\src\Logic_Simulator.cpp:64:7: note: candidate: void Node::AND(Node&, Node&)
+  void AND(Node& node1, Node& node2)
+       ^~~
+..\src\Logic_Simulator.cpp:64:7: note:   no known conversion for argument 1 from 'Node*' to 'Node&'
+..\src\Logic_Simulator.cpp: In member function 'virtual int OrGate::simulateGate()':
+..\src\Logic_Simulator.cpp:155:14: error: request for member 'OR' in '((OrGate*)this)->OrGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   outputNode.OR(inputNode1, inputNode2);
+              ^~
+..\src\Logic_Simulator.cpp:156:21: error: request for member 'getData' in '((OrGate*)this)->OrGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   return outputNode.getData();
+                     ^~~~~~~
+..\src\Logic_Simulator.cpp: In member function 'virtual int XorGate::simulateGate()':
+..\src\Logic_Simulator.cpp:170:14: error: request for member 'XOR' in '((XorGate*)this)->XorGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   outputNode.XOR(inputNode1, inputNode2);
+              ^~~
+..\src\Logic_Simulator.cpp:171:21: error: request for member 'getData' in '((XorGate*)this)->XorGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   return outputNode.getData();
+                     ^~~~~~~
+..\src\Logic_Simulator.cpp: In member function 'virtual int NandGate::simulateGate()':
+..\src\Logic_Simulator.cpp:185:14: error: request for member 'XOR' in '((NandGate*)this)->NandGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   outputNode.XOR(inputNode1, inputNode2);
+              ^~~
+..\src\Logic_Simulator.cpp:186:21: error: request for member 'getData' in '((NandGate*)this)->NandGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   return outputNode.getData();
+                     ^~~~~~~
+..\src\Logic_Simulator.cpp: In member function 'virtual int NorGate::simulateGate()':
+..\src\Logic_Simulator.cpp:200:14: error: request for member 'XOR' in '((NorGate*)this)->NorGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   outputNode.XOR(inputNode1, inputNode2);
+              ^~~
+..\src\Logic_Simulator.cpp:201:21: error: request for member 'getData' in '((NorGate*)this)->NorGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   return outputNode.getData();
+                     ^~~~~~~
+..\src\Logic_Simulator.cpp: In member function 'virtual int XnorGate::simulateGate()':
+..\src\Logic_Simulator.cpp:215:14: error: request for member 'XOR' in '((XnorGate*)this)->XnorGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   outputNode.XOR(inputNode1, inputNode2);
+              ^~~
+..\src\Logic_Simulator.cpp:216:21: error: request for member 'getData' in '((XnorGate*)this)->XnorGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   return outputNode.getData();
+                     ^~~~~~~
+..\src\Logic_Simulator.cpp: In member function 'virtual int NotGate::simulateGate()':
+..\src\Logic_Simulator.cpp:230:14: error: request for member 'XOR' in '((NotGate*)this)->NotGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   outputNode.XOR(inputNode1, inputNode2);
+              ^~~
+..\src\Logic_Simulator.cpp:231:21: error: request for member 'getData' in '((NotGate*)this)->NotGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   return outputNode.getData();
+                     ^~~~~~~
+..\src\Logic_Simulator.cpp: In member function 'void Simulator::postGate(Gate*)':
+..\src\Logic_Simulator.cpp:254:16: error: 'class Gate' has no member named 'getOutputNode'; did you mean 'outputNode'?
+   cout<<(gate->getOutputNode()).getName()<<endl;
+                ^~~~~~~~~~~~~
+..\src\Logic_Simulator.cpp:255:16: error: 'class Gate' has no member named 'getOutputNode'; did you mean 'outputNode'?
+   cout<<(gate->getOutputNode()).getData()<<endl;
+                ^~~~~~~~~~~~~
+..\src\Logic_Simulator.cpp: In member function 'Gate* GateGenerator::createGate(std::__cxx11::string, Node*, Node*, Node*)':
+..\src\Logic_Simulator.cpp:401:39: error: no matching function for call to 'AndGate::AndGate(Node&, Node&, Node&)'
+    andGate = new AndGate(*n1, *n2, *n3);
+                                       ^
+..\src\Logic_Simulator.cpp:133:2: note: candidate: AndGate::AndGate(Node*, Node*, Node*)
+  AndGate(Node* input1, Node* input2, Node* output):
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:133:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:132:2: note: candidate: AndGate::AndGate()
+  AndGate() {}
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:132:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:130:7: note: candidate: constexpr AndGate::AndGate(const AndGate&)
+ class AndGate : public Gate{
+       ^~~~~~~
+..\src\Logic_Simulator.cpp:130:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:130:7: note: candidate: constexpr AndGate::AndGate(AndGate&&)
+..\src\Logic_Simulator.cpp:130:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:412:37: error: no matching function for call to 'OrGate::OrGate(Node&, Node&, Node&)'
+    orGate = new OrGate(*n1, *n2, *n3);
+                                     ^
+..\src\Logic_Simulator.cpp:148:2: note: candidate: OrGate::OrGate(Node*, Node*, Node*)
+  OrGate(Node* input1, Node* input2, Node* output):
+  ^~~~~~
+..\src\Logic_Simulator.cpp:148:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:147:2: note: candidate: OrGate::OrGate()
+  OrGate() {}
+  ^~~~~~
+..\src\Logic_Simulator.cpp:147:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:145:7: note: candidate: constexpr OrGate::OrGate(const OrGate&)
+ class OrGate : public Gate{
+       ^~~~~~
+..\src\Logic_Simulator.cpp:145:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:145:7: note: candidate: constexpr OrGate::OrGate(OrGate&&)
+..\src\Logic_Simulator.cpp:145:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:420:41: error: no matching function for call to 'NandGate::NandGate(Node&, Node&, Node&)'
+    nandGate = new NandGate(*n1, *n2, *n3);
+                                         ^
+..\src\Logic_Simulator.cpp:178:2: note: candidate: NandGate::NandGate(Node*, Node*, Node*)
+  NandGate(Node* input1, Node* input2, Node* output):
+  ^~~~~~~~
+..\src\Logic_Simulator.cpp:178:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:177:2: note: candidate: NandGate::NandGate()
+  NandGate() {}
+  ^~~~~~~~
+..\src\Logic_Simulator.cpp:177:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:175:7: note: candidate: constexpr NandGate::NandGate(const NandGate&)
+ class NandGate : public Gate{
+       ^~~~~~~~
+..\src\Logic_Simulator.cpp:175:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:175:7: note: candidate: constexpr NandGate::NandGate(NandGate&&)
+..\src\Logic_Simulator.cpp:175:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:428:39: error: no matching function for call to 'NorGate::NorGate(Node&, Node&, Node&)'
+    norGate = new NorGate(*n1, *n2, *n3);
+                                       ^
+..\src\Logic_Simulator.cpp:193:2: note: candidate: NorGate::NorGate(Node*, Node*, Node*)
+  NorGate(Node* input1, Node* input2, Node* output):
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:193:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:192:2: note: candidate: NorGate::NorGate()
+  NorGate() {}
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:192:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:190:7: note: candidate: constexpr NorGate::NorGate(const NorGate&)
+ class NorGate : public Gate{
+       ^~~~~~~
+..\src\Logic_Simulator.cpp:190:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:190:7: note: candidate: constexpr NorGate::NorGate(NorGate&&)
+..\src\Logic_Simulator.cpp:190:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:436:39: error: no matching function for call to 'XorGate::XorGate(Node&, Node&, Node&)'
+    xorGate = new XorGate(*n1, *n2, *n3);
+                                       ^
+..\src\Logic_Simulator.cpp:163:2: note: candidate: XorGate::XorGate(Node*, Node*, Node*)
+  XorGate(Node* input1, Node* input2, Node* output):
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:163:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:162:2: note: candidate: XorGate::XorGate()
+  XorGate() {}
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:162:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:160:7: note: candidate: constexpr XorGate::XorGate(const XorGate&)
+ class XorGate : public Gate{
+       ^~~~~~~
+..\src\Logic_Simulator.cpp:160:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:160:7: note: candidate: constexpr XorGate::XorGate(XorGate&&)
+..\src\Logic_Simulator.cpp:160:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:444:41: error: no matching function for call to 'XnorGate::XnorGate(Node&, Node&, Node&)'
+    xnorGate = new XnorGate(*n1, *n2, *n3);
+                                         ^
+..\src\Logic_Simulator.cpp:208:2: note: candidate: XnorGate::XnorGate(Node*, Node*, Node*)
+  XnorGate(Node* input1, Node* input2, Node* output):
+  ^~~~~~~~
+..\src\Logic_Simulator.cpp:208:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:207:2: note: candidate: XnorGate::XnorGate()
+  XnorGate() {}
+  ^~~~~~~~
+..\src\Logic_Simulator.cpp:207:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:205:7: note: candidate: constexpr XnorGate::XnorGate(const XnorGate&)
+ class XnorGate : public Gate{
+       ^~~~~~~~
+..\src\Logic_Simulator.cpp:205:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:205:7: note: candidate: constexpr XnorGate::XnorGate(XnorGate&&)
+..\src\Logic_Simulator.cpp:205:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:452:39: error: no matching function for call to 'NotGate::NotGate(Node&, Node&, Node&)'
+    notGate = new NotGate(*n1, *n2, *n3);
+                                       ^
+..\src\Logic_Simulator.cpp:223:2: note: candidate: NotGate::NotGate(Node*, Node*, Node*)
+  NotGate(Node* input1, Node* input2, Node* output):
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:223:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:222:2: note: candidate: NotGate::NotGate()
+  NotGate() {}
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:222:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:220:7: note: candidate: constexpr NotGate::NotGate(const NotGate&)
+ class NotGate : public Gate{
+       ^~~~~~~
+..\src\Logic_Simulator.cpp:220:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:220:7: note: candidate: constexpr NotGate::NotGate(NotGate&&)
+..\src\Logic_Simulator.cpp:220:7: note:   candidate expects 1 argument, 3 provided
+02:45:43 **** Incremental Build of configuration Debug for project Logic_Simulator ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logic_Simulator.o" "..\\src\\Logic_Simulator.cpp" 
+..\src\Logic_Simulator.cpp: In member function 'virtual int AndGate::simulateGate()':
+..\src\Logic_Simulator.cpp:140:41: error: no matching function for call to 'Node::AND(Node*&, Node*&)'
+   outputNode->AND(inputNode1, inputNode2);
+                                         ^
+..\src\Logic_Simulator.cpp:64:7: note: candidate: void Node::AND(Node&, Node&)
+  void AND(Node& node1, Node& node2)
+       ^~~
+..\src\Logic_Simulator.cpp:64:7: note:   no known conversion for argument 1 from 'Node*' to 'Node&'
+..\src\Logic_Simulator.cpp: In member function 'virtual int OrGate::simulateGate()':
+..\src\Logic_Simulator.cpp:155:14: error: request for member 'OR' in '((OrGate*)this)->OrGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   outputNode.OR(inputNode1, inputNode2);
+              ^~
+..\src\Logic_Simulator.cpp:156:21: error: request for member 'getData' in '((OrGate*)this)->OrGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   return outputNode.getData();
+                     ^~~~~~~
+..\src\Logic_Simulator.cpp: In member function 'virtual int XorGate::simulateGate()':
+..\src\Logic_Simulator.cpp:170:14: error: request for member 'XOR' in '((XorGate*)this)->XorGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   outputNode.XOR(inputNode1, inputNode2);
+              ^~~
+..\src\Logic_Simulator.cpp:171:21: error: request for member 'getData' in '((XorGate*)this)->XorGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   return outputNode.getData();
+                     ^~~~~~~
+..\src\Logic_Simulator.cpp: In member function 'virtual int NandGate::simulateGate()':
+..\src\Logic_Simulator.cpp:185:14: error: request for member 'XOR' in '((NandGate*)this)->NandGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   outputNode.XOR(inputNode1, inputNode2);
+              ^~~
+..\src\Logic_Simulator.cpp:186:21: error: request for member 'getData' in '((NandGate*)this)->NandGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   return outputNode.getData();
+                     ^~~~~~~
+..\src\Logic_Simulator.cpp: In member function 'virtual int NorGate::simulateGate()':
+..\src\Logic_Simulator.cpp:200:14: error: request for member 'XOR' in '((NorGate*)this)->NorGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   outputNode.XOR(inputNode1, inputNode2);
+              ^~~
+..\src\Logic_Simulator.cpp:201:21: error: request for member 'getData' in '((NorGate*)this)->NorGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   return outputNode.getData();
+                     ^~~~~~~
+..\src\Logic_Simulator.cpp: In member function 'virtual int XnorGate::simulateGate()':
+..\src\Logic_Simulator.cpp:215:14: error: request for member 'XOR' in '((XnorGate*)this)->XnorGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   outputNode.XOR(inputNode1, inputNode2);
+              ^~~
+..\src\Logic_Simulator.cpp:216:21: error: request for member 'getData' in '((XnorGate*)this)->XnorGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   return outputNode.getData();
+                     ^~~~~~~
+..\src\Logic_Simulator.cpp: In member function 'virtual int NotGate::simulateGate()':
+..\src\Logic_Simulator.cpp:230:14: error: request for member 'XOR' in '((NotGate*)this)->NotGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   outputNode.XOR(inputNode1, inputNode2);
+              ^~~
+..\src\Logic_Simulator.cpp:231:21: error: request for member 'getData' in '((NotGate*)this)->NotGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   return outputNode.getData();
+                     ^~~~~~~
+..\src\Logic_Simulator.cpp: In member function 'Gate* GateGenerator::createGate(std::__cxx11::string, Node*, Node*, Node*)':
+..\src\Logic_Simulator.cpp:401:39: error: no matching function for call to 'AndGate::AndGate(Node&, Node&, Node&)'
+    andGate = new AndGate(*n1, *n2, *n3);
+                                       ^
+..\src\Logic_Simulator.cpp:133:2: note: candidate: AndGate::AndGate(Node*, Node*, Node*)
+  AndGate(Node* input1, Node* input2, Node* output):
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:133:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:132:2: note: candidate: AndGate::AndGate()
+  AndGate() {}
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:132:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:130:7: note: candidate: constexpr AndGate::AndGate(const AndGate&)
+ class AndGate : public Gate{
+       ^~~~~~~
+..\src\Logic_Simulator.cpp:130:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:130:7: note: candidate: constexpr AndGate::AndGate(AndGate&&)
+..\src\Logic_Simulator.cpp:130:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:412:37: error: no matching function for call to 'OrGate::OrGate(Node&, Node&, Node&)'
+    orGate = new OrGate(*n1, *n2, *n3);
+                                     ^
+..\src\Logic_Simulator.cpp:148:2: note: candidate: OrGate::OrGate(Node*, Node*, Node*)
+  OrGate(Node* input1, Node* input2, Node* output):
+  ^~~~~~
+..\src\Logic_Simulator.cpp:148:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:147:2: note: candidate: OrGate::OrGate()
+  OrGate() {}
+  ^~~~~~
+..\src\Logic_Simulator.cpp:147:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:145:7: note: candidate: constexpr OrGate::OrGate(const OrGate&)
+ class OrGate : public Gate{
+       ^~~~~~
+..\src\Logic_Simulator.cpp:145:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:145:7: note: candidate: constexpr OrGate::OrGate(OrGate&&)
+..\src\Logic_Simulator.cpp:145:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:420:41: error: no matching function for call to 'NandGate::NandGate(Node&, Node&, Node&)'
+    nandGate = new NandGate(*n1, *n2, *n3);
+                                         ^
+..\src\Logic_Simulator.cpp:178:2: note: candidate: NandGate::NandGate(Node*, Node*, Node*)
+  NandGate(Node* input1, Node* input2, Node* output):
+  ^~~~~~~~
+..\src\Logic_Simulator.cpp:178:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:177:2: note: candidate: NandGate::NandGate()
+  NandGate() {}
+  ^~~~~~~~
+..\src\Logic_Simulator.cpp:177:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:175:7: note: candidate: constexpr NandGate::NandGate(const NandGate&)
+ class NandGate : public Gate{
+       ^~~~~~~~
+..\src\Logic_Simulator.cpp:175:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:175:7: note: candidate: constexpr NandGate::NandGate(NandGate&&)
+..\src\Logic_Simulator.cpp:175:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:428:39: error: no matching function for call to 'NorGate::NorGate(Node&, Node&, Node&)'
+    norGate = new NorGate(*n1, *n2, *n3);
+                                       ^
+..\src\Logic_Simulator.cpp:193:2: note: candidate: NorGate::NorGate(Node*, Node*, Node*)
+  NorGate(Node* input1, Node* input2, Node* output):
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:193:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:192:2: note: candidate: NorGate::NorGate()
+  NorGate() {}
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:192:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:190:7: note: candidate: constexpr NorGate::NorGate(const NorGate&)
+ class NorGate : public Gate{
+       ^~~~~~~
+..\src\Logic_Simulator.cpp:190:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:190:7: note: candidate: constexpr NorGate::NorGate(NorGate&&)
+..\src\Logic_Simulator.cpp:190:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:436:39: error: no matching function for call to 'XorGate::XorGate(Node&, Node&, Node&)'
+    xorGate = new XorGate(*n1, *n2, *n3);
+                                       ^
+..\src\Logic_Simulator.cpp:163:2: note: candidate: XorGate::XorGate(Node*, Node*, Node*)
+  XorGate(Node* input1, Node* input2, Node* output):
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:163:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:162:2: note: candidate: XorGate::XorGate()
+  XorGate() {}
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:162:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:160:7: note: candidate: constexpr XorGate::XorGate(const XorGate&)
+ class XorGate : public Gate{
+       ^~~~~~~
+..\src\Logic_Simulator.cpp:160:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:160:7: note: candidate: constexpr XorGate::XorGate(XorGate&&)
+..\src\Logic_Simulator.cpp:160:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:444:41: error: no matching function for call to 'XnorGate::XnorGate(Node&, Node&, Node&)'
+    xnorGate = new XnorGate(*n1, *n2, *n3);
+                                         ^
+..\src\Logic_Simulator.cpp:208:2: note: candidate: XnorGate::XnorGate(Node*, Node*, Node*)
+  XnorGate(Node* input1, Node* input2, Node* output):
+  ^~~~~~~~
+..\src\Logic_Simulator.cpp:208:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:207:2: note: candidate: XnorGate::XnorGate()
+  XnorGate() {}
+  ^~~~~~~~
+..\src\Logic_Simulator.cpp:207:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:205:7: note: candidate: constexpr XnorGate::XnorGate(const XnorGate&)
+ class XnorGate : public Gate{
+       ^~~~~~~~
+..\src\Logic_Simulator.cpp:205:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:205:7: note: candidate: constexpr XnorGate::XnorGate(XnorGate&&)
+..\src\Logic_Simulator.cpp:205:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:452:39: error: no matching function for call to 'NotGate::NotGate(Node&, Node&, Node&)'
+    notGate = new NotGate(*n1, *n2, *n3);
+                                       ^
+..\src\Logic_Simulator.cpp:223:2: note: candidate: NotGate::NotGate(Node*, Node*, Node*)
+  NotGate(Node* input1, Node* input2, Node* output):
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:223:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:222:2: note: candidate: NotGate::NotGate()
+  NotGate() {}
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:222:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:220:7: note: candidate: constexpr NotGate::NotGate(const NotGate&)
+ class NotGate : public Gate{
+       ^~~~~~~
+..\src\Logic_Simulator.cpp:220:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:220:7: note: candidate: constexpr NotGate::NotGate(NotGate&&)
+..\src\Logic_Simulator.cpp:220:7: note:   candidate expects 1 argument, 3 provided
+02:46:58 **** Incremental Build of configuration Debug for project Logic_Simulator ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logic_Simulator.o" "..\\src\\Logic_Simulator.cpp" 
+..\src\Logic_Simulator.cpp: In member function 'virtual int OrGate::simulateGate()':
+..\src\Logic_Simulator.cpp:155:14: error: request for member 'OR' in '((OrGate*)this)->OrGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   outputNode.OR(inputNode1, inputNode2);
+              ^~
+..\src\Logic_Simulator.cpp:156:21: error: request for member 'getData' in '((OrGate*)this)->OrGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   return outputNode.getData();
+                     ^~~~~~~
+..\src\Logic_Simulator.cpp: In member function 'virtual int XorGate::simulateGate()':
+..\src\Logic_Simulator.cpp:170:14: error: request for member 'XOR' in '((XorGate*)this)->XorGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   outputNode.XOR(inputNode1, inputNode2);
+              ^~~
+..\src\Logic_Simulator.cpp:171:21: error: request for member 'getData' in '((XorGate*)this)->XorGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   return outputNode.getData();
+                     ^~~~~~~
+..\src\Logic_Simulator.cpp: In member function 'virtual int NandGate::simulateGate()':
+..\src\Logic_Simulator.cpp:185:14: error: request for member 'XOR' in '((NandGate*)this)->NandGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   outputNode.XOR(inputNode1, inputNode2);
+              ^~~
+..\src\Logic_Simulator.cpp:186:21: error: request for member 'getData' in '((NandGate*)this)->NandGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   return outputNode.getData();
+                     ^~~~~~~
+..\src\Logic_Simulator.cpp: In member function 'virtual int NorGate::simulateGate()':
+..\src\Logic_Simulator.cpp:200:14: error: request for member 'XOR' in '((NorGate*)this)->NorGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   outputNode.XOR(inputNode1, inputNode2);
+              ^~~
+..\src\Logic_Simulator.cpp:201:21: error: request for member 'getData' in '((NorGate*)this)->NorGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   return outputNode.getData();
+                     ^~~~~~~
+..\src\Logic_Simulator.cpp: In member function 'virtual int XnorGate::simulateGate()':
+..\src\Logic_Simulator.cpp:215:14: error: request for member 'XOR' in '((XnorGate*)this)->XnorGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   outputNode.XOR(inputNode1, inputNode2);
+              ^~~
+..\src\Logic_Simulator.cpp:216:21: error: request for member 'getData' in '((XnorGate*)this)->XnorGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   return outputNode.getData();
+                     ^~~~~~~
+..\src\Logic_Simulator.cpp: In member function 'virtual int NotGate::simulateGate()':
+..\src\Logic_Simulator.cpp:230:14: error: request for member 'XOR' in '((NotGate*)this)->NotGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   outputNode.XOR(inputNode1, inputNode2);
+              ^~~
+..\src\Logic_Simulator.cpp:231:21: error: request for member 'getData' in '((NotGate*)this)->NotGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   return outputNode.getData();
+                     ^~~~~~~
+..\src\Logic_Simulator.cpp: In member function 'Gate* GateGenerator::createGate(std::__cxx11::string, Node*, Node*, Node*)':
+..\src\Logic_Simulator.cpp:401:39: error: no matching function for call to 'AndGate::AndGate(Node&, Node&, Node&)'
+    andGate = new AndGate(*n1, *n2, *n3);
+                                       ^
+..\src\Logic_Simulator.cpp:133:2: note: candidate: AndGate::AndGate(Node*, Node*, Node*)
+  AndGate(Node* input1, Node* input2, Node* output):
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:133:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:132:2: note: candidate: AndGate::AndGate()
+  AndGate() {}
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:132:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:130:7: note: candidate: constexpr AndGate::AndGate(const AndGate&)
+ class AndGate : public Gate{
+       ^~~~~~~
+..\src\Logic_Simulator.cpp:130:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:130:7: note: candidate: constexpr AndGate::AndGate(AndGate&&)
+..\src\Logic_Simulator.cpp:130:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:412:37: error: no matching function for call to 'OrGate::OrGate(Node&, Node&, Node&)'
+    orGate = new OrGate(*n1, *n2, *n3);
+                                     ^
+..\src\Logic_Simulator.cpp:148:2: note: candidate: OrGate::OrGate(Node*, Node*, Node*)
+  OrGate(Node* input1, Node* input2, Node* output):
+  ^~~~~~
+..\src\Logic_Simulator.cpp:148:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:147:2: note: candidate: OrGate::OrGate()
+  OrGate() {}
+  ^~~~~~
+..\src\Logic_Simulator.cpp:147:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:145:7: note: candidate: constexpr OrGate::OrGate(const OrGate&)
+ class OrGate : public Gate{
+       ^~~~~~
+..\src\Logic_Simulator.cpp:145:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:145:7: note: candidate: constexpr OrGate::OrGate(OrGate&&)
+..\src\Logic_Simulator.cpp:145:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:420:41: error: no matching function for call to 'NandGate::NandGate(Node&, Node&, Node&)'
+    nandGate = new NandGate(*n1, *n2, *n3);
+                                         ^
+..\src\Logic_Simulator.cpp:178:2: note: candidate: NandGate::NandGate(Node*, Node*, Node*)
+  NandGate(Node* input1, Node* input2, Node* output):
+  ^~~~~~~~
+..\src\Logic_Simulator.cpp:178:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:177:2: note: candidate: NandGate::NandGate()
+  NandGate() {}
+  ^~~~~~~~
+..\src\Logic_Simulator.cpp:177:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:175:7: note: candidate: constexpr NandGate::NandGate(const NandGate&)
+ class NandGate : public Gate{
+       ^~~~~~~~
+..\src\Logic_Simulator.cpp:175:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:175:7: note: candidate: constexpr NandGate::NandGate(NandGate&&)
+..\src\Logic_Simulator.cpp:175:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:428:39: error: no matching function for call to 'NorGate::NorGate(Node&, Node&, Node&)'
+    norGate = new NorGate(*n1, *n2, *n3);
+                                       ^
+..\src\Logic_Simulator.cpp:193:2: note: candidate: NorGate::NorGate(Node*, Node*, Node*)
+  NorGate(Node* input1, Node* input2, Node* output):
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:193:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:192:2: note: candidate: NorGate::NorGate()
+  NorGate() {}
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:192:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:190:7: note: candidate: constexpr NorGate::NorGate(const NorGate&)
+ class NorGate : public Gate{
+       ^~~~~~~
+..\src\Logic_Simulator.cpp:190:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:190:7: note: candidate: constexpr NorGate::NorGate(NorGate&&)
+..\src\Logic_Simulator.cpp:190:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:436:39: error: no matching function for call to 'XorGate::XorGate(Node&, Node&, Node&)'
+    xorGate = new XorGate(*n1, *n2, *n3);
+                                       ^
+..\src\Logic_Simulator.cpp:163:2: note: candidate: XorGate::XorGate(Node*, Node*, Node*)
+  XorGate(Node* input1, Node* input2, Node* output):
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:163:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:162:2: note: candidate: XorGate::XorGate()
+  XorGate() {}
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:162:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:160:7: note: candidate: constexpr XorGate::XorGate(const XorGate&)
+ class XorGate : public Gate{
+       ^~~~~~~
+..\src\Logic_Simulator.cpp:160:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:160:7: note: candidate: constexpr XorGate::XorGate(XorGate&&)
+..\src\Logic_Simulator.cpp:160:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:444:41: error: no matching function for call to 'XnorGate::XnorGate(Node&, Node&, Node&)'
+    xnorGate = new XnorGate(*n1, *n2, *n3);
+                                         ^
+..\src\Logic_Simulator.cpp:208:2: note: candidate: XnorGate::XnorGate(Node*, Node*, Node*)
+  XnorGate(Node* input1, Node* input2, Node* output):
+  ^~~~~~~~
+..\src\Logic_Simulator.cpp:208:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:207:2: note: candidate: XnorGate::XnorGate()
+  XnorGate() {}
+  ^~~~~~~~
+..\src\Logic_Simulator.cpp:207:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:205:7: note: candidate: constexpr XnorGate::XnorGate(const XnorGate&)
+ class XnorGate : public Gate{
+       ^~~~~~~~
+..\src\Logic_Simulator.cpp:205:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:205:7: note: candidate: constexpr XnorGate::XnorGate(XnorGate&&)
+..\src\Logic_Simulator.cpp:205:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:452:39: error: no matching function for call to 'NotGate::NotGate(Node&, Node&, Node&)'
+    notGate = new NotGate(*n1, *n2, *n3);
+                                       ^
+..\src\Logic_Simulator.cpp:223:2: note: candidate: NotGate::NotGate(Node*, Node*, Node*)
+  NotGate(Node* input1, Node* input2, Node* output):
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:223:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:222:2: note: candidate: NotGate::NotGate()
+  NotGate() {}
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:222:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:220:7: note: candidate: constexpr NotGate::NotGate(const NotGate&)
+ class NotGate : public Gate{
+       ^~~~~~~
+..\src\Logic_Simulator.cpp:220:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:220:7: note: candidate: constexpr NotGate::NotGate(NotGate&&)
+..\src\Logic_Simulator.cpp:220:7: note:   candidate expects 1 argument, 3 provided
+02:47:45 **** Incremental Build of configuration Debug for project Logic_Simulator ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logic_Simulator.o" "..\\src\\Logic_Simulator.cpp" 
+..\src\Logic_Simulator.cpp: In member function 'virtual int OrGate::simulateGate()':
+..\src\Logic_Simulator.cpp:155:14: error: request for member 'OR' in '((OrGate*)this)->OrGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   outputNode.OR(*inputNode1, *inputNode2);
+              ^~
+..\src\Logic_Simulator.cpp: In member function 'virtual int XorGate::simulateGate()':
+..\src\Logic_Simulator.cpp:170:14: error: request for member 'XOR' in '((XorGate*)this)->XorGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   outputNode.XOR(*inputNode1, *inputNode2);
+              ^~~
+..\src\Logic_Simulator.cpp: In member function 'virtual int NandGate::simulateGate()':
+..\src\Logic_Simulator.cpp:185:14: error: request for member 'XOR' in '((NandGate*)this)->NandGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   outputNode.XOR(inputNode1, inputNode2);
+              ^~~
+..\src\Logic_Simulator.cpp:186:21: error: request for member 'getData' in '((NandGate*)this)->NandGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   return outputNode.getData();
+                     ^~~~~~~
+..\src\Logic_Simulator.cpp: In member function 'virtual int NorGate::simulateGate()':
+..\src\Logic_Simulator.cpp:200:14: error: request for member 'XOR' in '((NorGate*)this)->NorGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   outputNode.XOR(inputNode1, inputNode2);
+              ^~~
+..\src\Logic_Simulator.cpp:201:21: error: request for member 'getData' in '((NorGate*)this)->NorGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   return outputNode.getData();
+                     ^~~~~~~
+..\src\Logic_Simulator.cpp: In member function 'virtual int XnorGate::simulateGate()':
+..\src\Logic_Simulator.cpp:215:14: error: request for member 'XOR' in '((XnorGate*)this)->XnorGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   outputNode.XOR(inputNode1, inputNode2);
+              ^~~
+..\src\Logic_Simulator.cpp:216:21: error: request for member 'getData' in '((XnorGate*)this)->XnorGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   return outputNode.getData();
+                     ^~~~~~~
+..\src\Logic_Simulator.cpp: In member function 'virtual int NotGate::simulateGate()':
+..\src\Logic_Simulator.cpp:230:14: error: request for member 'XOR' in '((NotGate*)this)->NotGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   outputNode.XOR(inputNode1, inputNode2);
+              ^~~
+..\src\Logic_Simulator.cpp:231:21: error: request for member 'getData' in '((NotGate*)this)->NotGate::<anonymous>.Gate::outputNode', which is of pointer type 'Node*' (maybe you meant to use '->' ?)
+   return outputNode.getData();
+                     ^~~~~~~
+..\src\Logic_Simulator.cpp: In member function 'Gate* GateGenerator::createGate(std::__cxx11::string, Node*, Node*, Node*)':
+..\src\Logic_Simulator.cpp:401:39: error: no matching function for call to 'AndGate::AndGate(Node&, Node&, Node&)'
+    andGate = new AndGate(*n1, *n2, *n3);
+                                       ^
+..\src\Logic_Simulator.cpp:133:2: note: candidate: AndGate::AndGate(Node*, Node*, Node*)
+  AndGate(Node* input1, Node* input2, Node* output):
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:133:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:132:2: note: candidate: AndGate::AndGate()
+  AndGate() {}
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:132:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:130:7: note: candidate: constexpr AndGate::AndGate(const AndGate&)
+ class AndGate : public Gate{
+       ^~~~~~~
+..\src\Logic_Simulator.cpp:130:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:130:7: note: candidate: constexpr AndGate::AndGate(AndGate&&)
+..\src\Logic_Simulator.cpp:130:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:412:37: error: no matching function for call to 'OrGate::OrGate(Node&, Node&, Node&)'
+    orGate = new OrGate(*n1, *n2, *n3);
+                                     ^
+..\src\Logic_Simulator.cpp:148:2: note: candidate: OrGate::OrGate(Node*, Node*, Node*)
+  OrGate(Node* input1, Node* input2, Node* output):
+  ^~~~~~
+..\src\Logic_Simulator.cpp:148:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:147:2: note: candidate: OrGate::OrGate()
+  OrGate() {}
+  ^~~~~~
+..\src\Logic_Simulator.cpp:147:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:145:7: note: candidate: constexpr OrGate::OrGate(const OrGate&)
+ class OrGate : public Gate{
+       ^~~~~~
+..\src\Logic_Simulator.cpp:145:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:145:7: note: candidate: constexpr OrGate::OrGate(OrGate&&)
+..\src\Logic_Simulator.cpp:145:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:420:41: error: no matching function for call to 'NandGate::NandGate(Node&, Node&, Node&)'
+    nandGate = new NandGate(*n1, *n2, *n3);
+                                         ^
+..\src\Logic_Simulator.cpp:178:2: note: candidate: NandGate::NandGate(Node*, Node*, Node*)
+  NandGate(Node* input1, Node* input2, Node* output):
+  ^~~~~~~~
+..\src\Logic_Simulator.cpp:178:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:177:2: note: candidate: NandGate::NandGate()
+  NandGate() {}
+  ^~~~~~~~
+..\src\Logic_Simulator.cpp:177:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:175:7: note: candidate: constexpr NandGate::NandGate(const NandGate&)
+ class NandGate : public Gate{
+       ^~~~~~~~
+..\src\Logic_Simulator.cpp:175:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:175:7: note: candidate: constexpr NandGate::NandGate(NandGate&&)
+..\src\Logic_Simulator.cpp:175:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:428:39: error: no matching function for call to 'NorGate::NorGate(Node&, Node&, Node&)'
+    norGate = new NorGate(*n1, *n2, *n3);
+                                       ^
+..\src\Logic_Simulator.cpp:193:2: note: candidate: NorGate::NorGate(Node*, Node*, Node*)
+  NorGate(Node* input1, Node* input2, Node* output):
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:193:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:192:2: note: candidate: NorGate::NorGate()
+  NorGate() {}
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:192:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:190:7: note: candidate: constexpr NorGate::NorGate(const NorGate&)
+ class NorGate : public Gate{
+       ^~~~~~~
+..\src\Logic_Simulator.cpp:190:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:190:7: note: candidate: constexpr NorGate::NorGate(NorGate&&)
+..\src\Logic_Simulator.cpp:190:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:436:39: error: no matching function for call to 'XorGate::XorGate(Node&, Node&, Node&)'
+    xorGate = new XorGate(*n1, *n2, *n3);
+                                       ^
+..\src\Logic_Simulator.cpp:163:2: note: candidate: XorGate::XorGate(Node*, Node*, Node*)
+  XorGate(Node* input1, Node* input2, Node* output):
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:163:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:162:2: note: candidate: XorGate::XorGate()
+  XorGate() {}
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:162:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:160:7: note: candidate: constexpr XorGate::XorGate(const XorGate&)
+ class XorGate : public Gate{
+       ^~~~~~~
+..\src\Logic_Simulator.cpp:160:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:160:7: note: candidate: constexpr XorGate::XorGate(XorGate&&)
+..\src\Logic_Simulator.cpp:160:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:444:41: error: no matching function for call to 'XnorGate::XnorGate(Node&, Node&, Node&)'
+    xnorGate = new XnorGate(*n1, *n2, *n3);
+                                         ^
+..\src\Logic_Simulator.cpp:208:2: note: candidate: XnorGate::XnorGate(Node*, Node*, Node*)
+  XnorGate(Node* input1, Node* input2, Node* output):
+  ^~~~~~~~
+..\src\Logic_Simulator.cpp:208:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:207:2: note: candidate: XnorGate::XnorGate()
+  XnorGate() {}
+  ^~~~~~~~
+..\src\Logic_Simulator.cpp:207:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:205:7: note: candidate: constexpr XnorGate::XnorGate(const XnorGate&)
+ class XnorGate : public Gate{
+       ^~~~~~~~
+..\src\Logic_Simulator.cpp:205:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:205:7: note: candidate: constexpr XnorGate::XnorGate(XnorGate&&)
+..\src\Logic_Simulator.cpp:205:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:452:39: error: no matching function for call to 'NotGate::NotGate(Node&, Node&, Node&)'
+    notGate = new NotGate(*n1, *n2, *n3);
+                                       ^
+..\src\Logic_Simulator.cpp:223:2: note: candidate: NotGate::NotGate(Node*, Node*, Node*)
+  NotGate(Node* input1, Node* input2, Node* output):
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:223:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:222:2: note: candidate: NotGate::NotGate()
+  NotGate() {}
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:222:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:220:7: note: candidate: constexpr NotGate::NotGate(const NotGate&)
+ class NotGate : public Gate{
+       ^~~~~~~
+..\src\Logic_Simulator.cpp:220:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:220:7: note: candidate: constexpr NotGate::NotGate(NotGate&&)
+..\src\Logic_Simulator.cpp:220:7: note:   candidate expects 1 argument, 3 provided
+02:48:25 **** Incremental Build of configuration Debug for project Logic_Simulator ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logic_Simulator.o" "..\\src\\Logic_Simulator.cpp" 
+..\src\Logic_Simulator.cpp: In member function 'virtual int NandGate::simulateGate()':
+..\src\Logic_Simulator.cpp:185:41: error: no matching function for call to 'Node::XOR(Node*&, Node*&)'
+   outputNode->XOR(inputNode1, inputNode2);
+                                         ^
+..\src\Logic_Simulator.cpp:72:7: note: candidate: void Node::XOR(Node&, Node&)
+  void XOR(Node& node1, Node& node2)
+       ^~~
+..\src\Logic_Simulator.cpp:72:7: note:   no known conversion for argument 1 from 'Node*' to 'Node&'
+..\src\Logic_Simulator.cpp: In member function 'virtual int NorGate::simulateGate()':
+..\src\Logic_Simulator.cpp:200:41: error: no matching function for call to 'Node::XOR(Node*&, Node*&)'
+   outputNode->XOR(inputNode1, inputNode2);
+                                         ^
+..\src\Logic_Simulator.cpp:72:7: note: candidate: void Node::XOR(Node&, Node&)
+  void XOR(Node& node1, Node& node2)
+       ^~~
+..\src\Logic_Simulator.cpp:72:7: note:   no known conversion for argument 1 from 'Node*' to 'Node&'
+..\src\Logic_Simulator.cpp: In member function 'virtual int XnorGate::simulateGate()':
+..\src\Logic_Simulator.cpp:215:41: error: no matching function for call to 'Node::XOR(Node*&, Node*&)'
+   outputNode->XOR(inputNode1, inputNode2);
+                                         ^
+..\src\Logic_Simulator.cpp:72:7: note: candidate: void Node::XOR(Node&, Node&)
+  void XOR(Node& node1, Node& node2)
+       ^~~
+..\src\Logic_Simulator.cpp:72:7: note:   no known conversion for argument 1 from 'Node*' to 'Node&'
+..\src\Logic_Simulator.cpp: In member function 'virtual int NotGate::simulateGate()':
+..\src\Logic_Simulator.cpp:230:41: error: no matching function for call to 'Node::XOR(Node*&, Node*&)'
+   outputNode->XOR(inputNode1, inputNode2);
+                                         ^
+..\src\Logic_Simulator.cpp:72:7: note: candidate: void Node::XOR(Node&, Node&)
+  void XOR(Node& node1, Node& node2)
+       ^~~
+..\src\Logic_Simulator.cpp:72:7: note:   no known conversion for argument 1 from 'Node*' to 'Node&'
+..\src\Logic_Simulator.cpp: In member function 'Gate* GateGenerator::createGate(std::__cxx11::string, Node*, Node*, Node*)':
+..\src\Logic_Simulator.cpp:401:39: error: no matching function for call to 'AndGate::AndGate(Node&, Node&, Node&)'
+    andGate = new AndGate(*n1, *n2, *n3);
+                                       ^
+..\src\Logic_Simulator.cpp:133:2: note: candidate: AndGate::AndGate(Node*, Node*, Node*)
+  AndGate(Node* input1, Node* input2, Node* output):
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:133:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:132:2: note: candidate: AndGate::AndGate()
+  AndGate() {}
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:132:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:130:7: note: candidate: constexpr AndGate::AndGate(const AndGate&)
+ class AndGate : public Gate{
+       ^~~~~~~
+..\src\Logic_Simulator.cpp:130:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:130:7: note: candidate: constexpr AndGate::AndGate(AndGate&&)
+..\src\Logic_Simulator.cpp:130:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:412:37: error: no matching function for call to 'OrGate::OrGate(Node&, Node&, Node&)'
+    orGate = new OrGate(*n1, *n2, *n3);
+                                     ^
+..\src\Logic_Simulator.cpp:148:2: note: candidate: OrGate::OrGate(Node*, Node*, Node*)
+  OrGate(Node* input1, Node* input2, Node* output):
+  ^~~~~~
+..\src\Logic_Simulator.cpp:148:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:147:2: note: candidate: OrGate::OrGate()
+  OrGate() {}
+  ^~~~~~
+..\src\Logic_Simulator.cpp:147:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:145:7: note: candidate: constexpr OrGate::OrGate(const OrGate&)
+ class OrGate : public Gate{
+       ^~~~~~
+..\src\Logic_Simulator.cpp:145:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:145:7: note: candidate: constexpr OrGate::OrGate(OrGate&&)
+..\src\Logic_Simulator.cpp:145:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:420:41: error: no matching function for call to 'NandGate::NandGate(Node&, Node&, Node&)'
+    nandGate = new NandGate(*n1, *n2, *n3);
+                                         ^
+..\src\Logic_Simulator.cpp:178:2: note: candidate: NandGate::NandGate(Node*, Node*, Node*)
+  NandGate(Node* input1, Node* input2, Node* output):
+  ^~~~~~~~
+..\src\Logic_Simulator.cpp:178:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:177:2: note: candidate: NandGate::NandGate()
+  NandGate() {}
+  ^~~~~~~~
+..\src\Logic_Simulator.cpp:177:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:175:7: note: candidate: constexpr NandGate::NandGate(const NandGate&)
+ class NandGate : public Gate{
+       ^~~~~~~~
+..\src\Logic_Simulator.cpp:175:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:175:7: note: candidate: constexpr NandGate::NandGate(NandGate&&)
+..\src\Logic_Simulator.cpp:175:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:428:39: error: no matching function for call to 'NorGate::NorGate(Node&, Node&, Node&)'
+    norGate = new NorGate(*n1, *n2, *n3);
+                                       ^
+..\src\Logic_Simulator.cpp:193:2: note: candidate: NorGate::NorGate(Node*, Node*, Node*)
+  NorGate(Node* input1, Node* input2, Node* output):
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:193:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:192:2: note: candidate: NorGate::NorGate()
+  NorGate() {}
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:192:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:190:7: note: candidate: constexpr NorGate::NorGate(const NorGate&)
+ class NorGate : public Gate{
+       ^~~~~~~
+..\src\Logic_Simulator.cpp:190:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:190:7: note: candidate: constexpr NorGate::NorGate(NorGate&&)
+..\src\Logic_Simulator.cpp:190:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:436:39: error: no matching function for call to 'XorGate::XorGate(Node&, Node&, Node&)'
+    xorGate = new XorGate(*n1, *n2, *n3);
+                                       ^
+..\src\Logic_Simulator.cpp:163:2: note: candidate: XorGate::XorGate(Node*, Node*, Node*)
+  XorGate(Node* input1, Node* input2, Node* output):
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:163:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:162:2: note: candidate: XorGate::XorGate()
+  XorGate() {}
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:162:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:160:7: note: candidate: constexpr XorGate::XorGate(const XorGate&)
+ class XorGate : public Gate{
+       ^~~~~~~
+..\src\Logic_Simulator.cpp:160:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:160:7: note: candidate: constexpr XorGate::XorGate(XorGate&&)
+..\src\Logic_Simulator.cpp:160:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:444:41: error: no matching function for call to 'XnorGate::XnorGate(Node&, Node&, Node&)'
+    xnorGate = new XnorGate(*n1, *n2, *n3);
+                                         ^
+..\src\Logic_Simulator.cpp:208:2: note: candidate: XnorGate::XnorGate(Node*, Node*, Node*)
+  XnorGate(Node* input1, Node* input2, Node* output):
+  ^~~~~~~~
+..\src\Logic_Simulator.cpp:208:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:207:2: note: candidate: XnorGate::XnorGate()
+  XnorGate() {}
+  ^~~~~~~~
+..\src\Logic_Simulator.cpp:207:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:205:7: note: candidate: constexpr XnorGate::XnorGate(const XnorGate&)
+ class XnorGate : public Gate{
+       ^~~~~~~~
+..\src\Logic_Simulator.cpp:205:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:205:7: note: candidate: constexpr XnorGate::XnorGate(XnorGate&&)
+..\src\Logic_Simulator.cpp:205:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:452:39: error: no matching function for call to 'NotGate::NotGate(Node&, Node&, Node&)'
+    notGate = new NotGate(*n1, *n2, *n3);
+                                       ^
+..\src\Logic_Simulator.cpp:223:2: note: candidate: NotGate::NotGate(Node*, Node*, Node*)
+  NotGate(Node* input1, Node* input2, Node* output):
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:223:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:222:2: note: candidate: NotGate::NotGate()
+  NotGate() {}
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:222:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:220:7: note: candidate: constexpr NotGate::NotGate(const NotGate&)
+ class NotGate : public Gate{
+       ^~~~~~~
+..\src\Logic_Simulator.cpp:220:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:220:7: note: candidate: constexpr NotGate::NotGate(NotGate&&)
+..\src\Logic_Simulator.cpp:220:7: note:   candidate expects 1 argument, 3 provided
+02:50:10 **** Incremental Build of configuration Debug for project Logic_Simulator ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logic_Simulator.o" "..\\src\\Logic_Simulator.cpp" 
+..\src\Logic_Simulator.cpp: In member function 'virtual int NandGate::simulateGate()':
+..\src\Logic_Simulator.cpp:185:41: error: no matching function for call to 'Node::XOR(Node*&, Node*&)'
+   outputNode->XOR(inputNode1, inputNode2);
+                                         ^
+..\src\Logic_Simulator.cpp:72:7: note: candidate: void Node::XOR(Node&, Node&)
+  void XOR(Node& node1, Node& node2)
+       ^~~
+..\src\Logic_Simulator.cpp:72:7: note:   no known conversion for argument 1 from 'Node*' to 'Node&'
+..\src\Logic_Simulator.cpp: In member function 'Gate* GateGenerator::createGate(std::__cxx11::string, Node*, Node*, Node*)':
+..\src\Logic_Simulator.cpp:401:39: error: no matching function for call to 'AndGate::AndGate(Node&, Node&, Node&)'
+    andGate = new AndGate(*n1, *n2, *n3);
+                                       ^
+..\src\Logic_Simulator.cpp:133:2: note: candidate: AndGate::AndGate(Node*, Node*, Node*)
+  AndGate(Node* input1, Node* input2, Node* output):
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:133:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:132:2: note: candidate: AndGate::AndGate()
+  AndGate() {}
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:132:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:130:7: note: candidate: constexpr AndGate::AndGate(const AndGate&)
+ class AndGate : public Gate{
+       ^~~~~~~
+..\src\Logic_Simulator.cpp:130:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:130:7: note: candidate: constexpr AndGate::AndGate(AndGate&&)
+..\src\Logic_Simulator.cpp:130:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:412:37: error: no matching function for call to 'OrGate::OrGate(Node&, Node&, Node&)'
+    orGate = new OrGate(*n1, *n2, *n3);
+                                     ^
+..\src\Logic_Simulator.cpp:148:2: note: candidate: OrGate::OrGate(Node*, Node*, Node*)
+  OrGate(Node* input1, Node* input2, Node* output):
+  ^~~~~~
+..\src\Logic_Simulator.cpp:148:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:147:2: note: candidate: OrGate::OrGate()
+  OrGate() {}
+  ^~~~~~
+..\src\Logic_Simulator.cpp:147:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:145:7: note: candidate: constexpr OrGate::OrGate(const OrGate&)
+ class OrGate : public Gate{
+       ^~~~~~
+..\src\Logic_Simulator.cpp:145:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:145:7: note: candidate: constexpr OrGate::OrGate(OrGate&&)
+..\src\Logic_Simulator.cpp:145:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:420:41: error: no matching function for call to 'NandGate::NandGate(Node&, Node&, Node&)'
+    nandGate = new NandGate(*n1, *n2, *n3);
+                                         ^
+..\src\Logic_Simulator.cpp:178:2: note: candidate: NandGate::NandGate(Node*, Node*, Node*)
+  NandGate(Node* input1, Node* input2, Node* output):
+  ^~~~~~~~
+..\src\Logic_Simulator.cpp:178:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:177:2: note: candidate: NandGate::NandGate()
+  NandGate() {}
+  ^~~~~~~~
+..\src\Logic_Simulator.cpp:177:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:175:7: note: candidate: constexpr NandGate::NandGate(const NandGate&)
+ class NandGate : public Gate{
+       ^~~~~~~~
+..\src\Logic_Simulator.cpp:175:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:175:7: note: candidate: constexpr NandGate::NandGate(NandGate&&)
+..\src\Logic_Simulator.cpp:175:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:428:39: error: no matching function for call to 'NorGate::NorGate(Node&, Node&, Node&)'
+    norGate = new NorGate(*n1, *n2, *n3);
+                                       ^
+..\src\Logic_Simulator.cpp:193:2: note: candidate: NorGate::NorGate(Node*, Node*, Node*)
+  NorGate(Node* input1, Node* input2, Node* output):
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:193:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:192:2: note: candidate: NorGate::NorGate()
+  NorGate() {}
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:192:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:190:7: note: candidate: constexpr NorGate::NorGate(const NorGate&)
+ class NorGate : public Gate{
+       ^~~~~~~
+..\src\Logic_Simulator.cpp:190:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:190:7: note: candidate: constexpr NorGate::NorGate(NorGate&&)
+..\src\Logic_Simulator.cpp:190:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:436:39: error: no matching function for call to 'XorGate::XorGate(Node&, Node&, Node&)'
+    xorGate = new XorGate(*n1, *n2, *n3);
+                                       ^
+..\src\Logic_Simulator.cpp:163:2: note: candidate: XorGate::XorGate(Node*, Node*, Node*)
+  XorGate(Node* input1, Node* input2, Node* output):
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:163:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:162:2: note: candidate: XorGate::XorGate()
+  XorGate() {}
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:162:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:160:7: note: candidate: constexpr XorGate::XorGate(const XorGate&)
+ class XorGate : public Gate{
+       ^~~~~~~
+..\src\Logic_Simulator.cpp:160:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:160:7: note: candidate: constexpr XorGate::XorGate(XorGate&&)
+..\src\Logic_Simulator.cpp:160:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:444:41: error: no matching function for call to 'XnorGate::XnorGate(Node&, Node&, Node&)'
+    xnorGate = new XnorGate(*n1, *n2, *n3);
+                                         ^
+..\src\Logic_Simulator.cpp:208:2: note: candidate: XnorGate::XnorGate(Node*, Node*, Node*)
+  XnorGate(Node* input1, Node* input2, Node* output):
+  ^~~~~~~~
+..\src\Logic_Simulator.cpp:208:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:207:2: note: candidate: XnorGate::XnorGate()
+  XnorGate() {}
+  ^~~~~~~~
+..\src\Logic_Simulator.cpp:207:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:205:7: note: candidate: constexpr XnorGate::XnorGate(const XnorGate&)
+ class XnorGate : public Gate{
+       ^~~~~~~~
+..\src\Logic_Simulator.cpp:205:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:205:7: note: candidate: constexpr XnorGate::XnorGate(XnorGate&&)
+..\src\Logic_Simulator.cpp:205:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:452:39: error: no matching function for call to 'NotGate::NotGate(Node&, Node&, Node&)'
+    notGate = new NotGate(*n1, *n2, *n3);
+                                       ^
+..\src\Logic_Simulator.cpp:223:2: note: candidate: NotGate::NotGate(Node*, Node*, Node*)
+  NotGate(Node* input1, Node* input2, Node* output):
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:223:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:222:2: note: candidate: NotGate::NotGate()
+  NotGate() {}
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:222:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:220:7: note: candidate: constexpr NotGate::NotGate(const NotGate&)
+ class NotGate : public Gate{
+       ^~~~~~~
+..\src\Logic_Simulator.cpp:220:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:220:7: note: candidate: constexpr NotGate::NotGate(NotGate&&)
+..\src\Logic_Simulator.cpp:220:7: note:   candidate expects 1 argument, 3 provided
+02:50:40 **** Incremental Build of configuration Debug for project Logic_Simulator ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logic_Simulator.o" "..\\src\\Logic_Simulator.cpp" 
+..\src\Logic_Simulator.cpp: In member function 'Gate* GateGenerator::createGate(std::__cxx11::string, Node*, Node*, Node*)':
+..\src\Logic_Simulator.cpp:401:39: error: no matching function for call to 'AndGate::AndGate(Node&, Node&, Node&)'
+    andGate = new AndGate(*n1, *n2, *n3);
+                                       ^
+..\src\Logic_Simulator.cpp:133:2: note: candidate: AndGate::AndGate(Node*, Node*, Node*)
+  AndGate(Node* input1, Node* input2, Node* output):
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:133:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:132:2: note: candidate: AndGate::AndGate()
+  AndGate() {}
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:132:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:130:7: note: candidate: constexpr AndGate::AndGate(const AndGate&)
+ class AndGate : public Gate{
+       ^~~~~~~
+..\src\Logic_Simulator.cpp:130:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:130:7: note: candidate: constexpr AndGate::AndGate(AndGate&&)
+..\src\Logic_Simulator.cpp:130:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:412:37: error: no matching function for call to 'OrGate::OrGate(Node&, Node&, Node&)'
+    orGate = new OrGate(*n1, *n2, *n3);
+                                     ^
+..\src\Logic_Simulator.cpp:148:2: note: candidate: OrGate::OrGate(Node*, Node*, Node*)
+  OrGate(Node* input1, Node* input2, Node* output):
+  ^~~~~~
+..\src\Logic_Simulator.cpp:148:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:147:2: note: candidate: OrGate::OrGate()
+  OrGate() {}
+  ^~~~~~
+..\src\Logic_Simulator.cpp:147:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:145:7: note: candidate: constexpr OrGate::OrGate(const OrGate&)
+ class OrGate : public Gate{
+       ^~~~~~
+..\src\Logic_Simulator.cpp:145:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:145:7: note: candidate: constexpr OrGate::OrGate(OrGate&&)
+..\src\Logic_Simulator.cpp:145:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:420:41: error: no matching function for call to 'NandGate::NandGate(Node&, Node&, Node&)'
+    nandGate = new NandGate(*n1, *n2, *n3);
+                                         ^
+..\src\Logic_Simulator.cpp:178:2: note: candidate: NandGate::NandGate(Node*, Node*, Node*)
+  NandGate(Node* input1, Node* input2, Node* output):
+  ^~~~~~~~
+..\src\Logic_Simulator.cpp:178:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:177:2: note: candidate: NandGate::NandGate()
+  NandGate() {}
+  ^~~~~~~~
+..\src\Logic_Simulator.cpp:177:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:175:7: note: candidate: constexpr NandGate::NandGate(const NandGate&)
+ class NandGate : public Gate{
+       ^~~~~~~~
+..\src\Logic_Simulator.cpp:175:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:175:7: note: candidate: constexpr NandGate::NandGate(NandGate&&)
+..\src\Logic_Simulator.cpp:175:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:428:39: error: no matching function for call to 'NorGate::NorGate(Node&, Node&, Node&)'
+    norGate = new NorGate(*n1, *n2, *n3);
+                                       ^
+..\src\Logic_Simulator.cpp:193:2: note: candidate: NorGate::NorGate(Node*, Node*, Node*)
+  NorGate(Node* input1, Node* input2, Node* output):
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:193:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:192:2: note: candidate: NorGate::NorGate()
+  NorGate() {}
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:192:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:190:7: note: candidate: constexpr NorGate::NorGate(const NorGate&)
+ class NorGate : public Gate{
+       ^~~~~~~
+..\src\Logic_Simulator.cpp:190:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:190:7: note: candidate: constexpr NorGate::NorGate(NorGate&&)
+..\src\Logic_Simulator.cpp:190:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:436:39: error: no matching function for call to 'XorGate::XorGate(Node&, Node&, Node&)'
+    xorGate = new XorGate(*n1, *n2, *n3);
+                                       ^
+..\src\Logic_Simulator.cpp:163:2: note: candidate: XorGate::XorGate(Node*, Node*, Node*)
+  XorGate(Node* input1, Node* input2, Node* output):
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:163:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:162:2: note: candidate: XorGate::XorGate()
+  XorGate() {}
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:162:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:160:7: note: candidate: constexpr XorGate::XorGate(const XorGate&)
+ class XorGate : public Gate{
+       ^~~~~~~
+..\src\Logic_Simulator.cpp:160:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:160:7: note: candidate: constexpr XorGate::XorGate(XorGate&&)
+..\src\Logic_Simulator.cpp:160:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:444:41: error: no matching function for call to 'XnorGate::XnorGate(Node&, Node&, Node&)'
+    xnorGate = new XnorGate(*n1, *n2, *n3);
+                                         ^
+..\src\Logic_Simulator.cpp:208:2: note: candidate: XnorGate::XnorGate(Node*, Node*, Node*)
+  XnorGate(Node* input1, Node* input2, Node* output):
+  ^~~~~~~~
+..\src\Logic_Simulator.cpp:208:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:207:2: note: candidate: XnorGate::XnorGate()
+  XnorGate() {}
+  ^~~~~~~~
+..\src\Logic_Simulator.cpp:207:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:205:7: note: candidate: constexpr XnorGate::XnorGate(const XnorGate&)
+ class XnorGate : public Gate{
+       ^~~~~~~~
+..\src\Logic_Simulator.cpp:205:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:205:7: note: candidate: constexpr XnorGate::XnorGate(XnorGate&&)
+..\src\Logic_Simulator.cpp:205:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:452:39: error: no matching function for call to 'NotGate::NotGate(Node&, Node&, Node&)'
+    notGate = new NotGate(*n1, *n2, *n3);
+                                       ^
+..\src\Logic_Simulator.cpp:223:2: note: candidate: NotGate::NotGate(Node*, Node*, Node*)
+  NotGate(Node* input1, Node* input2, Node* output):
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:223:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:222:2: note: candidate: NotGate::NotGate()
+  NotGate() {}
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:222:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:220:7: note: candidate: constexpr NotGate::NotGate(const NotGate&)
+ class NotGate : public Gate{
+       ^~~~~~~
+..\src\Logic_Simulator.cpp:220:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:220:7: note: candidate: constexpr NotGate::NotGate(NotGate&&)
+..\src\Logic_Simulator.cpp:220:7: note:   candidate expects 1 argument, 3 provided
+02:51:06 **** Incremental Build of configuration Debug for project Logic_Simulator ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logic_Simulator.o" "..\\src\\Logic_Simulator.cpp" 
+..\src\Logic_Simulator.cpp: In member function 'Gate* GateGenerator::createGate(std::__cxx11::string, Node*, Node*, Node*)':
+..\src\Logic_Simulator.cpp:412:37: error: no matching function for call to 'OrGate::OrGate(Node&, Node&, Node&)'
+    orGate = new OrGate(*n1, *n2, *n3);
+                                     ^
+..\src\Logic_Simulator.cpp:148:2: note: candidate: OrGate::OrGate(Node*, Node*, Node*)
+  OrGate(Node* input1, Node* input2, Node* output):
+  ^~~~~~
+..\src\Logic_Simulator.cpp:148:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:147:2: note: candidate: OrGate::OrGate()
+  OrGate() {}
+  ^~~~~~
+..\src\Logic_Simulator.cpp:147:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:145:7: note: candidate: constexpr OrGate::OrGate(const OrGate&)
+ class OrGate : public Gate{
+       ^~~~~~
+..\src\Logic_Simulator.cpp:145:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:145:7: note: candidate: constexpr OrGate::OrGate(OrGate&&)
+..\src\Logic_Simulator.cpp:145:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:420:41: error: no matching function for call to 'NandGate::NandGate(Node&, Node&, Node&)'
+    nandGate = new NandGate(*n1, *n2, *n3);
+                                         ^
+..\src\Logic_Simulator.cpp:178:2: note: candidate: NandGate::NandGate(Node*, Node*, Node*)
+  NandGate(Node* input1, Node* input2, Node* output):
+  ^~~~~~~~
+..\src\Logic_Simulator.cpp:178:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:177:2: note: candidate: NandGate::NandGate()
+  NandGate() {}
+  ^~~~~~~~
+..\src\Logic_Simulator.cpp:177:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:175:7: note: candidate: constexpr NandGate::NandGate(const NandGate&)
+ class NandGate : public Gate{
+       ^~~~~~~~
+..\src\Logic_Simulator.cpp:175:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:175:7: note: candidate: constexpr NandGate::NandGate(NandGate&&)
+..\src\Logic_Simulator.cpp:175:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:428:39: error: no matching function for call to 'NorGate::NorGate(Node&, Node&, Node&)'
+    norGate = new NorGate(*n1, *n2, *n3);
+                                       ^
+..\src\Logic_Simulator.cpp:193:2: note: candidate: NorGate::NorGate(Node*, Node*, Node*)
+  NorGate(Node* input1, Node* input2, Node* output):
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:193:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:192:2: note: candidate: NorGate::NorGate()
+  NorGate() {}
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:192:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:190:7: note: candidate: constexpr NorGate::NorGate(const NorGate&)
+ class NorGate : public Gate{
+       ^~~~~~~
+..\src\Logic_Simulator.cpp:190:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:190:7: note: candidate: constexpr NorGate::NorGate(NorGate&&)
+..\src\Logic_Simulator.cpp:190:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:436:39: error: no matching function for call to 'XorGate::XorGate(Node&, Node&, Node&)'
+    xorGate = new XorGate(*n1, *n2, *n3);
+                                       ^
+..\src\Logic_Simulator.cpp:163:2: note: candidate: XorGate::XorGate(Node*, Node*, Node*)
+  XorGate(Node* input1, Node* input2, Node* output):
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:163:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:162:2: note: candidate: XorGate::XorGate()
+  XorGate() {}
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:162:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:160:7: note: candidate: constexpr XorGate::XorGate(const XorGate&)
+ class XorGate : public Gate{
+       ^~~~~~~
+..\src\Logic_Simulator.cpp:160:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:160:7: note: candidate: constexpr XorGate::XorGate(XorGate&&)
+..\src\Logic_Simulator.cpp:160:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:444:41: error: no matching function for call to 'XnorGate::XnorGate(Node&, Node&, Node&)'
+    xnorGate = new XnorGate(*n1, *n2, *n3);
+                                         ^
+..\src\Logic_Simulator.cpp:208:2: note: candidate: XnorGate::XnorGate(Node*, Node*, Node*)
+  XnorGate(Node* input1, Node* input2, Node* output):
+  ^~~~~~~~
+..\src\Logic_Simulator.cpp:208:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:207:2: note: candidate: XnorGate::XnorGate()
+  XnorGate() {}
+  ^~~~~~~~
+..\src\Logic_Simulator.cpp:207:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:205:7: note: candidate: constexpr XnorGate::XnorGate(const XnorGate&)
+ class XnorGate : public Gate{
+       ^~~~~~~~
+..\src\Logic_Simulator.cpp:205:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:205:7: note: candidate: constexpr XnorGate::XnorGate(XnorGate&&)
+..\src\Logic_Simulator.cpp:205:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:452:39: error: no matching function for call to 'NotGate::NotGate(Node&, Node&, Node&)'
+    notGate = new NotGate(*n1, *n2, *n3);
+                                       ^
+..\src\Logic_Simulator.cpp:223:2: note: candidate: NotGate::NotGate(Node*, Node*, Node*)
+  NotGate(Node* input1, Node* input2, Node* output):
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:223:2: note:   no known conversion for argument 1 from 'Node' to 'Node*'
+..\src\Logic_Simulator.cpp:222:2: note: candidate: NotGate::NotGate()
+  NotGate() {}
+  ^~~~~~~
+..\src\Logic_Simulator.cpp:222:2: note:   candidate expects 0 arguments, 3 provided
+..\src\Logic_Simulator.cpp:220:7: note: candidate: constexpr NotGate::NotGate(const NotGate&)
+ class NotGate : public Gate{
+       ^~~~~~~
+..\src\Logic_Simulator.cpp:220:7: note:   candidate expects 1 argument, 3 provided
+..\src\Logic_Simulator.cpp:220:7: note: candidate: constexpr NotGate::NotGate(NotGate&&)
+..\src\Logic_Simulator.cpp:220:7: note:   candidate expects 1 argument, 3 provided
+02:51:57 **** Incremental Build of configuration Debug for project Logic_Simulator ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logic_Simulator.o" "..\\src\\Logic_Simulator.cpp" 
+g++ -o Logic_Simulator.exe "src\\Logic_Simulator.o" 
+02:52:59 **** Incremental Build of configuration Debug for project Logic_Simulator ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logic_Simulator.o" "..\\src\\Logic_Simulator.cpp" 
+g++ -o Logic_Simulator.exe "src\\Logic_Simulator.o" 
+Info: Nothing to build for Logic_Simulator
+02:53:07 **** Incremental Build of configuration Debug for project Logic_Simulator ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logic_Simulator.o" "..\\src\\Logic_Simulator.cpp" 
+g++ -o Logic_Simulator.exe "src\\Logic_Simulator.o" 
+02:53:56 **** Incremental Build of configuration Debug for project Logic_Simulator ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logic_Simulator.o" "..\\src\\Logic_Simulator.cpp" 
+g++ -o Logic_Simulator.exe "src\\Logic_Simulator.o" 
+03:02:57 **** Incremental Build of configuration Debug for project Logic_Simulator ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logic_Simulator.o" "..\\src\\Logic_Simulator.cpp" 
+g++ -o Logic_Simulator.exe "src\\Logic_Simulator.o" 
+Info: Nothing to build for Logic_Simulator
+Info: Nothing to build for Logic_Simulator
+03:04:57 **** Incremental Build of configuration Debug for project Logic_Simulator ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logic_Simulator.o" "..\\src\\Logic_Simulator.cpp" 
+g++ -o Logic_Simulator.exe "src\\Logic_Simulator.o" 
+03:27:52 **** Incremental Build of configuration Debug for project Logic_Simulator ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logic_Simulator.o" "..\\src\\Logic_Simulator.cpp" 
+g++ -o Logic_Simulator.exe "src\\Logic_Simulator.o" 
+03:28:02 **** Incremental Build of configuration Debug for project Logic_Simulator ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logic_Simulator.o" "..\\src\\Logic_Simulator.cpp" 
+g++ -o Logic_Simulator.exe "src\\Logic_Simulator.o" 
+03:28:10 **** Incremental Build of configuration Debug for project Logic_Simulator ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logic_Simulator.o" "..\\src\\Logic_Simulator.cpp" 
+g++ -o Logic_Simulator.exe "src\\Logic_Simulator.o" 
+03:28:16 **** Incremental Build of configuration Debug for project Logic_Simulator ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logic_Simulator.o" "..\\src\\Logic_Simulator.cpp" 
+g++ -o Logic_Simulator.exe "src\\Logic_Simulator.o" 
+03:29:00 **** Incremental Build of configuration Debug for project Logic_Simulator ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logic_Simulator.o" "..\\src\\Logic_Simulator.cpp" 
+g++ -o Logic_Simulator.exe "src\\Logic_Simulator.o" 
+04:01:30 **** Incremental Build of configuration Debug for project Logic_Simulator ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logic_Simulator.o" "..\\src\\Logic_Simulator.cpp" 
+g++ -o Logic_Simulator.exe "src\\Logic_Simulator.o" 
+Info: Nothing to build for Logic_Simulator
+04:01:38 **** Incremental Build of configuration Debug for project Logic_Simulator ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logic_Simulator.o" "..\\src\\Logic_Simulator.cpp" 
+g++ -o Logic_Simulator.exe "src\\Logic_Simulator.o" 
+04:03:31 **** Incremental Build of configuration Debug for project Logic_Simulator ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logic_Simulator.o" "..\\src\\Logic_Simulator.cpp" 
+..\src\Logic_Simulator.cpp: In member function 'void Simulator::startSimulate()':
+..\src\Logic_Simulator.cpp:259:7: warning: variable 'gateOutputvalue' set but not used [-Wunused-but-set-variable]
+   int gateOutputvalue = 0;
+       ^~~~~~~~~~~~~~~
+g++ -o Logic_Simulator.exe "src\\Logic_Simulator.o" 
+04:04:02 **** Incremental Build of configuration Debug for project Logic_Simulator ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logic_Simulator.o" "..\\src\\Logic_Simulator.cpp" 
+..\src\Logic_Simulator.cpp: In member function 'void Simulator::startSimulate()':
+..\src\Logic_Simulator.cpp:262:8: warning: unused variable 'gateOutputvalue' [-Wunused-variable]
+    int gateOutputvalue = gate->simulateGate();
+        ^~~~~~~~~~~~~~~
+g++ -o Logic_Simulator.exe "src\\Logic_Simulator.o" 
+04:05:01 **** Incremental Build of configuration Debug for project Logic_Simulator ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logic_Simulator.o" "..\\src\\Logic_Simulator.cpp" 
+g++ -o Logic_Simulator.exe "src\\Logic_Simulator.o" 
+Info: Nothing to build for Logic_Simulator
+04:05:10 **** Incremental Build of configuration Debug for project Logic_Simulator ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logic_Simulator.o" "..\\src\\Logic_Simulator.cpp" 
+g++ -o Logic_Simulator.exe "src\\Logic_Simulator.o" 
+Info: Nothing to build for Logic_Simulator
+04:05:18 **** Incremental Build of configuration Debug for project Logic_Simulator ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logic_Simulator.o" "..\\src\\Logic_Simulator.cpp" 
+g++ -o Logic_Simulator.exe "src\\Logic_Simulator.o" 
+04:11:54 **** Incremental Build of configuration Debug for project Logic_Simulator ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logic_Simulator.o" "..\\src\\Logic_Simulator.cpp" 
+..\src\Logic_Simulator.cpp: In member function 'const Node*& Gate::getInputNode1() const':
+..\src\Logic_Simulator.cpp:93:10: error: invalid initialization of non-const reference of type 'const Node*&' from an rvalue of type 'const Node*'
+   return inputNode1;
+          ^~~~~~~~~~
+..\src\Logic_Simulator.cpp: In member function 'const Node*& Gate::getInputNode2() const':
+..\src\Logic_Simulator.cpp:101:10: error: invalid initialization of non-const reference of type 'const Node*&' from an rvalue of type 'const Node*'
+   return inputNode2;
+          ^~~~~~~~~~
+..\src\Logic_Simulator.cpp: In member function 'const Node*& Gate::getOutputNode() const':
+..\src\Logic_Simulator.cpp:109:10: error: invalid initialization of non-const reference of type 'const Node*&' from an rvalue of type 'const Node*'
+   return outputNode;
+          ^~~~~~~~~~
+04:12:30 **** Incremental Build of configuration Debug for project Logic_Simulator ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logic_Simulator.o" "..\\src\\Logic_Simulator.cpp" 
+..\src\Logic_Simulator.cpp: In member function 'const Node*& Gate::getInputNode1() const':
+..\src\Logic_Simulator.cpp:93:10: error: invalid initialization of non-const reference of type 'const Node*&' from an rvalue of type 'const Node*'
+   return inputNode1;
+          ^~~~~~~~~~
+..\src\Logic_Simulator.cpp: In member function 'void Gate::setInputNode1(const Node*&)':
+..\src\Logic_Simulator.cpp:97:22: error: invalid conversion from 'const Node*' to 'Node*' [-fpermissive]
+   this->inputNode1 = inputNode1;
+                      ^~~~~~~~~~
+..\src\Logic_Simulator.cpp: In member function 'const Node*& Gate::getInputNode2() const':
+..\src\Logic_Simulator.cpp:101:10: error: invalid initialization of non-const reference of type 'const Node*&' from an rvalue of type 'const Node*'
+   return inputNode2;
+          ^~~~~~~~~~
+..\src\Logic_Simulator.cpp: In member function 'void Gate::setInputNode2(const Node*&)':
+..\src\Logic_Simulator.cpp:105:22: error: invalid conversion from 'const Node*' to 'Node*' [-fpermissive]
+   this->inputNode2 = inputNode2;
+                      ^~~~~~~~~~
+..\src\Logic_Simulator.cpp: In member function 'const Node*& Gate::getOutputNode() const':
+..\src\Logic_Simulator.cpp:109:10: error: invalid initialization of non-const reference of type 'const Node*&' from an rvalue of type 'const Node*'
+   return outputNode;
+          ^~~~~~~~~~
+..\src\Logic_Simulator.cpp: In member function 'void Gate::setOutputNode(const Node*&)':
+..\src\Logic_Simulator.cpp:113:22: error: invalid conversion from 'const Node*' to 'Node*' [-fpermissive]
+   this->outputNode = outputNode;
+                      ^~~~~~~~~~
+04:13:59 **** Incremental Build of configuration Debug for project Logic_Simulator ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logic_Simulator.o" "..\\src\\Logic_Simulator.cpp" 
+..\src\Logic_Simulator.cpp: In member function 'void Gate::setInputNode1(const Node*)':
+..\src\Logic_Simulator.cpp:97:22: error: invalid conversion from 'const Node*' to 'Node*' [-fpermissive]
+   this->inputNode1 = inputNode1;
+                      ^~~~~~~~~~
+..\src\Logic_Simulator.cpp: In member function 'void Gate::setInputNode2(const Node*)':
+..\src\Logic_Simulator.cpp:105:22: error: invalid conversion from 'const Node*' to 'Node*' [-fpermissive]
+   this->inputNode2 = inputNode2;
+                      ^~~~~~~~~~
+..\src\Logic_Simulator.cpp: In member function 'void Gate::setOutputNode(const Node*)':
+..\src\Logic_Simulator.cpp:113:22: error: invalid conversion from 'const Node*' to 'Node*' [-fpermissive]
+   this->outputNode = outputNode;
+                      ^~~~~~~~~~
+04:14:11 **** Incremental Build of configuration Debug for project Logic_Simulator ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logic_Simulator.o" "..\\src\\Logic_Simulator.cpp" 
+g++ -o Logic_Simulator.exe "src\\Logic_Simulator.o" 
+04:15:03 **** Incremental Build of configuration Debug for project Logic_Simulator ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logic_Simulator.o" "..\\src\\Logic_Simulator.cpp" 
+g++ -o Logic_Simulator.exe "src\\Logic_Simulator.o" 
+04:27:53 **** Incremental Build of configuration Debug for project Logic_Simulator ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logic_Simulator.o" "..\\src\\Logic_Simulator.cpp" 
+g++ -o Logic_Simulator.exe "src\\Logic_Simulator.o" 
+17:14:38 **** Incremental Build of configuration Debug for project Logic_Simulator ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logic_Simulator.o" "..\\src\\Logic_Simulator.cpp" 
+g++ -o Logic_Simulator.exe "src\\Logic_Simulator.o" 
+17:14:49 **** Incremental Build of configuration Debug for project Logic_Simulator ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logic_Simulator.o" "..\\src\\Logic_Simulator.cpp" 
+g++ -o Logic_Simulator.exe "src\\Logic_Simulator.o" 
+17:15:52 **** Incremental Build of configuration Debug for project Logic_Simulator ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logic_Simulator.o" "..\\src\\Logic_Simulator.cpp" 
+..\src\Logic_Simulator.cpp: In function 'int main()':
+..\src\Logic_Simulator.cpp:476:12: error: 'Simulator::Simulator()' is private within this context
+  Simulator sim;
+            ^~~
+..\src\Logic_Simulator.cpp:233:2: note: declared private here
+  Simulator()
+  ^~~~~~~~~
+17:16:21 **** Incremental Build of configuration Debug for project Logic_Simulator ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Logic_Simulator.o" "..\\src\\Logic_Simulator.cpp" 
+g++ -o Logic_Simulator.exe "src\\Logic_Simulator.o" 
