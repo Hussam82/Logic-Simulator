@@ -6,7 +6,7 @@
 
 ### The input follows these formats:
 
-###### gate type (such as AND/OR gate)
+###### Gate type (such as AND/OR gate)
 ###### The inputs and output symbols
 ###### Write "SET" values to the inputs (either 0 or 1)
 ###### Write "SIM" to start simulation
