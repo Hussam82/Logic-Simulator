@@ -12,7 +12,7 @@ The input follows these formats:
 #### Write "SIM" to start simulation
 #### Write "OUT" to view the output of a specific node or "OUT ALL" to view all nodes' values
 
-### Sample Input 
+#### Sample Input 
 ###### AND A B D
 ###### OR C D E
 ###### SET A 1
@@ -22,7 +22,7 @@ The input follows these formats:
 ###### OUT E
 ###### OUT ALL
 
-### Sample Output 0
+### Sample Output
 ###### E: 1
 ###### A: 1
 ###### B: 0
