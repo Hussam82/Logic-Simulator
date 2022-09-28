@@ -410,6 +410,10 @@ public:
 			getline(cin, line);
 			istringstream iss(line);
 			iss>>opName;
+			/* Convert string to upper case */
+			std::for_each(opName.begin(), opName.end(), [](char & c){
+			    c = ::toupper(c);
+			});
 			/* Check for the operation required and act upon it */
 			if(opName == "AND" || opName == "OR" || opName == "NAND" || opName == "NOR"
 					 || opName == "XOR" || opName == "XNOR")
@@ -444,7 +448,15 @@ public:
 			else if(opName == "SET")
 			{
 				iss>>newNodeName>>newNodeValue;
-				sim.findNode(newNodeName)->setData(newNodeValue);
+				if(sim.findNode(newNodeName) != 0)
+				{
+					sim.findNode(newNodeName)->setData(newNodeValue);
+				}
+				else
+				{
+					cout<<"Node "<<newNodeName<<" does not exist"<<endl;
+				}
+
 			}
 			else if(opName == "SIM")
 			{
@@ -453,7 +465,7 @@ public:
 			else if(opName == "OUT")
 			{
 				iss>>outString;
-				if(outString == "ALL")
+				if(outString == "ALL" || outString == "all")
 				{
 					sim.printAllNodes();
 					break;
@@ -461,8 +473,23 @@ public:
 				else
 				{
 					Node* outNewNode = sim.findNode(outString);
-					cout<<*outNewNode<<endl;
+					if(outNewNode == 0)
+					{
+						cout<<"Node "<<outString<<" does not exist"<<endl;
+					}
+					else
+					{
+						cout<<*outNewNode<<endl;
+					}
 				}
+			}
+			else if(opName == "EXIT")
+			{
+				cout<<"Closing the program ...."<<endl;
+			}
+			else
+			{
+				cout<<"Enter a valid input.\nIf you want to exit the program type exit"<<endl;
 			}
 		}
 	}
